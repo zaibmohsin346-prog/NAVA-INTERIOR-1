@@ -1083,6 +1083,17 @@ Object.assign(SERVICES.find(s=>s.id==="ac-repair"), {
   faq:[["How often should my AC be serviced?","Every 3–4 months for units in daily use, with duct cleaning once a year."],["My AC is running but not cooling. What is wrong?","Usually low gas, a dirty coil or filter, or a faulty capacitor. We diagnose it on the first visit."],["Which brands do you install and repair?","All common brands in the UAE, including Daikin, Carrier, Gree, LG, Samsung, Mitsubishi and O General."],["Do you work in chiller-fed buildings?","Yes. We service fan coil units and thermostats in buildings on district cooling such as Empower and Emicool."]]
 });
 Object.assign(SERVICES.find(s=>s.id==="duct-cleaning"), { photo:"img/ac-grille-service.jpg", photoAlt:"NAVA INTERIOR technicians removing linear AC grilles for cleaning" });
+SERVICES.push({id:"wall-moulding",k:"carpentry",cat:"Renovation",name:"Wall moulding & panelling",from:null,time:"1\u20134 days",
+  photo:"img/moulding-palm-terrace.jpg", photoAlt:"Two NAVA INTERIOR fitters laser-levelling classic wall moulding panels in a Palm Jumeirah villa",
+  photo2:"img/moulding-panel-detail.jpg", photo2Alt:"Fitters mitring and levelling decorative wall panel mouldings with carved corner ornaments",
+  short:"Classic and modern wall moulding, wainscoting, panel frames, cornices and decorative ornaments for villas and apartments.",
+  intro:"Wall moulding adds depth, light and shadow to plain walls and gives any room a refined, high-end finish. NAVA INTERIOR designs and installs classic French-style panel frames with carved corner ornaments, modern slim shadow-line panels, wainscoting, dado rails, skirting and cornices. Every frame is set out with a laser so the panels line up across the whole wall, corners are mitred precisely, joints are filled and sanded, and the finished wall is painted in one seamless colour.",
+  includes:["Wall measurement and panel layout design","Laser setting-out for perfectly aligned frames","PU, MDF or gypsum moulding profiles","Carved corner and centre ornaments","Wainscoting and dado rails","Skirting and ceiling cornice","Precise mitred corners","Joint filling, sanding and full repaint"],
+  processTitle:"How we install wall moulding",
+  process:[["Design & layout","We measure the walls and draw the panel layout, balancing frames around doors, windows and sockets."],["Setting-out","Frame positions are marked with a laser level so every line is straight and evenly spaced."],["Cutting & fixing","Profiles are mitred and fixed with adhesive and a brad nailer, then ornaments are placed."],["Filling & sanding","Nail holes and joints are filled and sanded so the moulding looks like one piece with the wall."],["Painting & handover","Primer and two coats of paint finish the wall, then we clean up and walk through it with you."]],
+  finishesTitle:"Moulding styles we install",
+  finishes:[["Classic French panels","Rectangular frames with carved corner ornaments for a palace-style look."],["Modern slim frames","Thin, clean profiles for contemporary apartments."],["Wainscoting","Lower-wall panelling with a dado rail, ideal for corridors and dining rooms."],["Full-height panelling","Floor-to-ceiling frames for feature walls behind beds and sofas."],["Cornice & skirting","Matching ceiling cornice and skirting to complete the room."],["Two-tone painted panels","Panels painted in a contrast colour for extra depth."]],
+  faq:[["Which material do you use?","Mostly high-density PU (polyurethane) moulding: light, moisture-resistant and easy to paint. MDF and gypsum are available too."],["How long does a feature wall take?","Usually 1\u20132 days including painting; a full room takes 2\u20134 days."],["Can moulding go on any wall?","Yes, on block, concrete or gypsum walls. We check the wall is flat first and skim it if needed."],["Can I choose the paint colour?","Yes. Most clients paint the moulding the same colour as the wall; contrast colours also work well."]]});
 const PROCESS = {
  Technical:[["Book","Book online or send a WhatsApp message with photos of the problem."],["Inspect & quote","Our technician arrives in the agreed window, finds the cause and gives you a clear quote."],["Fix","Work starts only after you approve, using quality parts carried on the van."],["Test & clean","Everything is tested in front of you and the area is left clean."],["Warranty","You receive a job report and our 90-day workmanship warranty."]],
  Renovation:[["Site visit","Free visit to measure, understand your needs and advise on options."],["Design & quote","You get a written scope, timeline and quote, with samples or 3D where useful."],["Approvals & prep","We handle building NOCs, protect your home and prepare the site."],["Build","A dedicated supervisor manages the work and keeps you updated on WhatsApp."],["Handover","Final walk-through, snag list fixed, clean-up and warranty."]]
@@ -1111,7 +1122,7 @@ const HOME_CATS = [
  ["waterproofing","Waterproofing","wp-nava-roof-roller.jpg","40% center"],
  ["chandelier-installation","Electrical & lighting","chandelier-crystal-villa.jpg","52% center"],
  ["tile-work","Tiling & bathrooms","tile-laser-luxury-bathroom.jpg","68% center"],
- ["water-heaters","Water heaters & solar","heater-team-install.jpg","center 30%"],
+ ["wall-moulding","Wall moulding & panelling","moulding-palm-terrace.jpg","78% center"],
  ["cctv-and-intercom","CCTV & smart home","cctv-nava-team-villa.jpg","60% center"],
  ["pool-construction","Swimming pools","pool-team-tiling.jpg","50% center"],
  ["pergolas-and-outdoor-structures","Pergolas & outdoor living","pergola-sunset.jpg","55% center"],
@@ -1241,7 +1252,7 @@ gallery: () => `${pageHead("Our work","Recent jobs across the UAE","A selection 
     <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px"><a class="btn btn-brass" href="#contact" data-svc="duct-cleaning">Book duct cleaning</a><a class="btn btn-ghost" href="#duct-cleaning">About this service</a></div></div>
   </article>
   <h2 style="margin-bottom:20px">All projects</h2>
-  <div class="filters" role="group" aria-label="Filter projects">${["All","AC","Painting","Carpentry","Plumbing","CCTV","Electrical","TV mounting","Water heaters","Waterproofing","Pools","Outdoor","Tiles","Gypsum","Renovation"].map((f,i)=>`<button type="button" data-f="${f}" aria-pressed="${i===0}">${f}</button>`).join("")}</div>
+  <div class="filters" role="group" aria-label="Filter projects">${["All","AC","Painting","Carpentry","Plumbing","CCTV","Electrical","TV mounting","Water heaters","Waterproofing","Pools","Outdoor","Moulding","Tiles","Gypsum","Renovation"].map((f,i)=>`<button type="button" data-f="${f}" aria-pressed="${i===0}">${f}</button>`).join("")}</div>
   <div class="gallery" id="gal"></div>
 </div></section>${ctaBand()}`,
 
@@ -1325,6 +1336,11 @@ const caseStudy = () => `<article class="case">
   </div>
 </article>`;
 const PROJECTS = [
+ ["Palm villa panel wall","Moulding","Palm Jumeirah","img/moulding-palm-terrace.jpg","Panel frames set out with a laser and fixed with carved corner ornaments.","moulding"],
+ ["Marina apartment at sunset","Moulding","Dubai Marina","img/moulding-marina-sunset.jpg","Frames levelled and nailed in place before filling and painting.","moulding"],
+ ["Marina feature wall","Moulding","Dubai Marina","img/moulding-marina-day.jpg","Decorative profiles and ornaments added to a full-height panel wall.","moulding"],
+ ["Mitred panel frames","Moulding","Dubai","img/moulding-panel-detail.jpg","Corners mitred precisely so each frame closes perfectly.","moulding"],
+ ["Living room wainscoting","Moulding","Dubai","img/moulding-living-room.jpg","Full-height panelling with dado rail in a classic living room.","moulding"],
  ["Split AC installation","AC","Dubai","img/ac-split-install.jpg","New split unit mounted level with concealed piping in a villa bedroom.","ac"],
  ["Grille & duct cleaning","AC","Dubai","img/ac-grille-service.jpg","Linear grilles removed, washed and refitted.","ac"],
  ["Cassette AC service","AC","Dubai","img/ac-cassette-service.jpg","Ceiling cassette inspected, cleaned and tested with a service checklist.","ac"],
@@ -1402,7 +1418,7 @@ function drawShot(cv, cat, seed){
   if(cat==="Painting"){ g.fillStyle="rgba(255,255,255,.18)"; g.fillRect(60,50,110,80); g.fillStyle=c("--petrol"); g.fillRect(200,150,160,50); g.fillRect(210,200,10,16); g.fillRect(340,200,10,16); }
   g.fillStyle="rgba(0,0,0,.05)"; for(let i=0;i<40;i++) g.fillRect(rnd()*W, H*.72+rnd()*H*.28, 30, 1);
 }
-const ALBUMS = { ac:{ title:"AC installation & servicing", cover:"img/ac-split-install.jpg", desc:"Split AC installation, grille and duct cleaning, cassette servicing and rooftop outdoor unit maintenance." }, ceiling:{ title:"Gypsum false ceilings", cover:"img/ceiling-majlis-cornice.jpg", desc:"Multi-level ceilings, cove lighting, cornices and LED details in villas and apartments." }, pergola:{ title:"Rooftop pergola installation", cover:"img/pergola-sunset.jpg", desc:"Aluminium and timber-look pergolas installed on a Downtown Dubai rooftop, with built-in LED lighting." }, pool:{ title:"Villa swimming pool", cover:"img/pool-night-villa.jpg", desc:"Full pool build: mosaic tiling, LED lighting, travertine deck and finished result." } };
+const ALBUMS = { moulding:{ title:"Wall moulding & panelling", cover:"img/moulding-palm-terrace.jpg", desc:"Classic panel frames with carved ornaments installed in villas and apartments across Dubai." }, ac:{ title:"AC installation & servicing", cover:"img/ac-split-install.jpg", desc:"Split AC installation, grille and duct cleaning, cassette servicing and rooftop outdoor unit maintenance." }, ceiling:{ title:"Gypsum false ceilings", cover:"img/ceiling-majlis-cornice.jpg", desc:"Multi-level ceilings, cove lighting, cornices and LED details in villas and apartments." }, pergola:{ title:"Rooftop pergola installation", cover:"img/pergola-sunset.jpg", desc:"Aluminium and timber-look pergolas installed on a Downtown Dubai rooftop, with built-in LED lighting." }, pool:{ title:"Villa swimming pool", cover:"img/pool-night-villa.jpg", desc:"Full pool build: mosaic tiling, LED lighting, travertine deck and finished result." } };
 let ITEMS_CACHE = null;
 function items(){
   if(ITEMS_CACHE) return ITEMS_CACHE;
