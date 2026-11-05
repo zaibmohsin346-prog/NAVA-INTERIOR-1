@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zaibmohsin346-prog.github.io/NAVA-INTERIOR-1/sitemap.xml
