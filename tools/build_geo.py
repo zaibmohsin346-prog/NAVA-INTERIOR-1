@@ -68,19 +68,26 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 def page(path, title, desc, body, ld, img="/img/hero-kitchen-marina.jpg"):
     url = SITE + path
     doc = f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<html lang="en"><head><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-NVBHQ6WM');</script>
+<!-- End Google Tag Manager --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="NAVA INTERIOR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{SITE}{img}"><meta property="og:url" content="{url}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/brand/logo/nava-interior-icon-transparent.png">{FONTS}
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@graph":ld},ensure_ascii=False)}</script>
 </head><body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVBHQ6WM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header><div class="w"><a class="brand" href="/"><img src="/brand/logo/nava-interior-icon-transparent.png" alt="" width="34" height="34"><span><b>NAVA</b> INTERIOR</span></a>
 <nav><a href="/">Home</a><a href="/services/">Services</a><a href="/#gallery">Our work</a><a href="/#about">About</a><a href="/#contact">Contact</a></nav></div></header>
 {body}
 <footer><div class="w"><p><strong style="color:#F6F1E8">NAVA INTERIOR</strong> · Interior fit-out, renovation &amp; maintenance in {", ".join(EMIRATES[:-1])} and {EMIRATES[-1]}.</p>
 <p>WhatsApp / phone: <a href="{wa('Hi NAVA INTERIOR, I would like a free quote.')}">{PHONE}</a> · Email: {EMAIL} · <a href="/">navainteriordubai.com</a></p>
 <p>Areas: {" · ".join(f'<a href="/areas/{k}/">{v[0]}</a>' for k,v in AREA_INFO.items())} · <a href="/services/">All services</a></p></div></footer>
+<script>window.dataLayer=window.dataLayer||[];(function(){{var src="";try{{src=sessionStorage.getItem("nava_src")||""}}catch(e){{}}var r=document.referrer;if(!src){{src=/google\\./.test(r)?"google":/bing\\./.test(r)?"bing":/chatgpt|openai|perplexity|claude\\.ai|gemini/.test(r)?"ai-assistant":/instagram\\./.test(r)?"ig":/facebook\\./.test(r)?"fb":"website"}}
+document.addEventListener("click",function(e){{var a=e.target.closest('a[href*="wa.me"]');if(!a)return;window.dataLayer.push({{event:"whatsapp_click",lead_source:src,page_section:location.pathname}});window.dataLayer.push({{event:"generate_lead",method:"whatsapp",lead_source:src,page_section:location.pathname}});}},true);}})();</script>
 </body></html>"""
     d = os.path.join(ROOT, path.strip("/"))
     os.makedirs(d, exist_ok=True)
