@@ -4,6 +4,10 @@
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NVBHQ6WM');</script>
 <!-- End Google Tag Manager -->
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8FCP3364BW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8FCP3364BW',{page_location:location.href});</script>
+<!-- End Google Analytics 4 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="NAVA INTERIOR – interior fit-out, renovation and property maintenance for villas, apartments and offices in Dubai, Abu Dhabi, Sharjah and Ajman.">
@@ -1608,8 +1612,9 @@ window.dataLayer = window.dataLayer || [];
 document.addEventListener("click", e=>{ const a=e.target.closest('a[href*="wa.me"]'); if(!a) return;
   const view=(location.hash||"#home").slice(1);
   window.dataLayer.push({event:"whatsapp_click", lead_source:SRC, page_section:view, link_text:(a.textContent||"").trim().slice(0,60)});
-  window.dataLayer.push({event:"generate_lead", method:"whatsapp", lead_source:SRC, page_section:view}); }, true);
-window.addEventListener("hashchange", ()=>{ window.dataLayer.push({event:"virtual_page_view", page_path:location.pathname+location.hash, page_title:document.title}); });
+  window.dataLayer.push({event:"generate_lead", method:"whatsapp", lead_source:SRC, page_section:view});
+  if(typeof gtag==="function"){ gtag("event","generate_lead",{method:"whatsapp",lead_source:SRC,page_section:view,currency:"AED",value:0}); gtag("event","whatsapp_click",{lead_source:SRC,page_section:view}); } }, true);
+window.addEventListener("hashchange", ()=>{ window.dataLayer.push({event:"virtual_page_view", page_path:location.pathname+location.hash, page_title:document.title}); if(typeof gtag==="function") setTimeout(()=>gtag("event","page_view",{page_location:location.href,page_title:document.title}),50); });
 document.addEventListener("keydown", e=>{ const lb=document.getElementById("lightbox"); if(lb.hidden){ if((e.key==="Enter"||e.key===" ") && e.target.matches("figure[data-album]")){ e.preventDefault(); openAlbum(+e.target.dataset.album); } return; } if(e.key==="Escape") closeAlbum(); if(e.key==="ArrowLeft") lb._step(-1); if(e.key==="ArrowRight") lb._step(1); });
 window.addEventListener("hashchange", ()=>{ closeAlbum(); route(); });
 route();
