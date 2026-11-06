@@ -25,3 +25,11 @@ python3 -m http.server 8080
 ## Publish with GitHub Pages
 
 Repository **Settings → Pages → Build and deployment → Deploy from a branch → `main` / root**.
+
+## SEO & AI search (GEO) pages
+
+`services/`, `areas/`, `llms.txt`, `sitemap.xml` and `robots.txt` are generated, and the home page text is pre-filled inside `<main id="app">`. After changing services in `index.html`, rebuild them:
+
+```bash
+node tools/extract.js && python3 tools/build_geo.py && node tools/prerender.js
+```

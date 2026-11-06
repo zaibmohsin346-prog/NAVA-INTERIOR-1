@@ -1,0 +1,5530 @@
+{
+ "areas": [
+  "Abu Dhabi",
+  "Al Reem Island",
+  "Saadiyat Island",
+  "Yas Island",
+  "Khalifa City",
+  "Dubai Marina",
+  "JLT",
+  "JVC",
+  "Downtown",
+  "Business Bay",
+  "Arabian Ranches",
+  "Al Barsha",
+  "Mirdif",
+  "Dubai Hills",
+  "Palm Jumeirah",
+  "Al Nahda (Sharjah)",
+  "Al Majaz",
+  "Ajman Downtown"
+ ],
+ "general": [
+  [
+   "Is your work guaranteed?",
+   "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+  ],
+  [
+   "How do I pay?",
+   "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+  ],
+  [
+   "Which areas do you cover?",
+   "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+  ]
+ ],
+ "services": [
+  {
+   "id": "ac-repair",
+   "name": "AC installation, repair & servicing",
+   "cat": "Technical",
+   "short": "Complete AC services: new installation, repair, gas refill, deep cleaning and annual maintenance for split, ducted and cassette units.",
+   "intro": "UAE summers push air conditioning past 45°C for months, so a reliable system is essential. NAVA INTERIOR's HVAC technicians install, repair and maintain every common type of AC: wall-mounted splits, ceiling cassettes, concealed ducted units and chiller-fed fan coils. We size new units correctly for each room, mount them level with neat concealed piping, vacuum and pressure-test every connection, and handle servicing, gas top-ups, duct and grille cleaning and annual maintenance contracts so your system runs cool and efficiently all year.",
+   "includes": [
+    "New split, cassette and ducted AC installation",
+    "Correct sizing and placement advice",
+    "Copper piping, insulation and drain lines",
+    "Vacuum and nitrogen pressure testing",
+    "Fault finding and repair",
+    "Refrigerant gas top-up (R410A / R32)",
+    "Coil, filter, grille and duct cleaning",
+    "Thermostat and controller setup",
+    "Outdoor unit servicing",
+    "Annual maintenance contracts"
+   ],
+   "process": [
+    [
+     "Inspection",
+     "We check the room, existing system and electrical supply, or diagnose the fault on the spot."
+    ],
+    [
+     "Recommendation & quote",
+     "You get the right unit size or repair option and a clear written quote."
+    ],
+    [
+     "Installation or repair",
+     "Units are mounted level, pipes run neatly and insulated, and faults repaired with quality parts."
+    ],
+    [
+     "Testing",
+     "We vacuum, pressure-test and check gas, airflow, temperature and drainage."
+    ],
+    [
+     "Clean & handover",
+     "The area is cleaned, we explain the controls and give you a service schedule."
+    ]
+   ],
+   "processTitle": "How we install and service your AC",
+   "finishes": [
+    [
+     "Split AC installation",
+     "Wall-mounted units with concealed or trunked piping."
+    ],
+    [
+     "Cassette & ducted AC",
+     "Ceiling cassettes and concealed ducted systems for villas and offices."
+    ],
+    [
+     "AC repair",
+     "Not cooling, leaking water, noisy or tripping: diagnosed and fixed."
+    ],
+    [
+     "Gas refill & leak repair",
+     "Leak detection, brazing and refrigerant top-up."
+    ],
+    [
+     "Deep cleaning",
+     "Coils, filters, grilles, drain trays and duct cleaning."
+    ],
+    [
+     "Annual maintenance",
+     "Scheduled visits before and during summer with priority call-outs."
+    ]
+   ],
+   "finishesTitle": "AC services we provide",
+   "faq": [
+    [
+     "How often should my AC be serviced?",
+     "Every 3–4 months for units in daily use, with duct cleaning once a year."
+    ],
+    [
+     "My AC is running but not cooling. What is wrong?",
+     "Usually low gas, a dirty coil or filter, or a faulty capacitor. We diagnose it on the first visit."
+    ],
+    [
+     "Which brands do you install and repair?",
+     "All common brands in the UAE, including Daikin, Carrier, Gree, LG, Samsung, Mitsubishi and O General."
+    ],
+    [
+     "Do you work in chiller-fed buildings?",
+     "Yes. We service fan coil units and thermostats in buildings on district cooling such as Empower and Emicool."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/ac-split-install.jpg",
+   "photoAlt": "Two NAVA INTERIOR technicians installing a new split AC unit in a villa bedroom",
+   "photo2": "img/ac-outdoor-villa.jpg",
+   "photo2Alt": "NAVA INTERIOR HVAC team checking refrigerant pressure on villa rooftop outdoor units",
+   "time": "60–120 min"
+  },
+  {
+   "id": "plumbing",
+   "name": "Plumbing",
+   "cat": "Technical",
+   "short": "Leaks, blockages, mixers, pumps and water tanks, handled by licensed plumbers.",
+   "intro": "From a leaking sink trap to a failed booster pump, our licensed plumbers find the cause first and give you a fixed price before any work starts. Every plumber carries common fittings, traps, mixers and PPR parts in the van, so most jobs are finished in one visit, and we leave the area clean and dry.",
+   "includes": [
+    "Leak detection and repair",
+    "Kitchen and bathroom sink traps",
+    "Drain and sewer unblocking",
+    "Mixer and tap replacement",
+    "WC, cistern and flush repair",
+    "Water heater connections",
+    "Booster pump repair",
+    "Water tank cleaning"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do you bring parts?",
+     "Common fittings are on every van. Branded mixers can be supplied at cost or fitted from your own stock."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/plumbing-kitchen-sink.jpg",
+   "photoAlt": "NAVA INTERIOR plumber repairing the waste pipe under a kitchen sink in a Dubai Marina apartment",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "45–90 min"
+  },
+  {
+   "id": "electrical",
+   "name": "Electrical",
+   "cat": "Technical",
+   "short": "DB faults, tripping breakers, sockets, lighting and smart switches.",
+   "intro": "Our electricians work to Dubai Municipality and DEWA wiring standards. Tripping circuits, burnt sockets, new lighting points and smart home switches are all routine work.",
+   "includes": [
+    "Fault finding and tripping",
+    "Socket and switch replacement",
+    "Light fitting installation",
+    "Distribution board checks",
+    "Smart switch setup",
+    "Outdoor and garden lighting"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you fix a breaker that keeps tripping?",
+     "Yes. We trace the faulty circuit with an insulation tester and repair or replace the cause, not just the breaker."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/electrician-socket-testing.jpg",
+   "photoAlt": "NAVA INTERIOR electrician testing a wall socket with a multimeter in a Dubai apartment",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "45–120 min"
+  },
+  {
+   "id": "painting",
+   "name": "Painting",
+   "cat": "Renovation",
+   "short": "Interior and exterior painting for apartments, villas and offices, with premium Jotun, National and Dulux paints.",
+   "intro": "Professional painting for every kind of property in the UAE: apartments, villas, offices, shops and building common areas. We use premium paints from Jotun, National Paints, Dulux and Asian Paints, chosen for the job: washable emulsions for family homes, moisture-resistant paint for bathrooms and kitchens, and heat- and UV-resistant coatings for exterior walls that face the sun all day. Furniture and floors are fully protected, and the work is finished with sharp, clean lines.",
+   "includes": [
+    "Free colour consultation and samples",
+    "Furniture covering and floor protection",
+    "Crack, hole and damp-patch repair",
+    "Sanding and primer",
+    "Two finish coats as standard",
+    "Ceilings, doors, skirting and trims",
+    "Feature walls and two-tone designs",
+    "Full clean-up and final inspection"
+   ],
+   "process": [
+    [
+     "Inspection & colour advice",
+     "We check the walls, note cracks or damp, and help you choose colours and finishes with real paint samples."
+    ],
+    [
+     "Protection",
+     "Furniture is moved and wrapped, floors are sheeted, and switches and fittings are masked."
+    ],
+    [
+     "Surface preparation",
+     "Cracks and holes are filled, damp patches treated, walls sanded smooth and primed."
+    ],
+    [
+     "Painting",
+     "Two finish coats applied by roller and brush, with crisp cut-in lines at ceilings and corners."
+    ],
+    [
+     "Clean-up & handover",
+     "Masking removed, furniture back in place, and a walk-through with you to check every wall."
+    ]
+   ],
+   "processTitle": "Our painting process",
+   "finishes": [
+    [
+     "Matt",
+     "Soft, no shine. Hides small wall marks. Best for ceilings and bedrooms."
+    ],
+    [
+     "Eggshell / Silk",
+     "Low sheen and washable. Ideal for living rooms, corridors and kids' rooms."
+    ],
+    [
+     "Satin",
+     "Durable and easy to clean. Good for kitchens, bathrooms and high-traffic areas."
+    ],
+    [
+     "Gloss / Enamel",
+     "Hard-wearing shine for doors, skirting, railings and metal."
+    ],
+    [
+     "Texture & decorative",
+     "Stucco, sand texture and special effects for feature walls."
+    ],
+    [
+     "Exterior weathershield",
+     "Heat-, UV- and dust-resistant coating for outside walls in the UAE climate."
+    ]
+   ],
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long does painting take?",
+     "A 1-bedroom apartment usually takes 1–2 days, a 2-bedroom 2–3 days, and a villa interior 4–7 days, depending on preparation needed."
+    ],
+    [
+     "Do I need to move my furniture?",
+     "No. Our team moves and covers furniture and puts everything back when the job is finished."
+    ],
+    [
+     "Which paint brands do you use?",
+     "Jotun, National Paints, Dulux and Asian Paints. We can also use a brand or colour code you already have."
+    ],
+    [
+     "Is the paint safe for children?",
+     "Yes. We use low-VOC, low-odour paints, so most families can stay at home during the work."
+    ],
+    [
+     "Can you paint during weekends or at night?",
+     "Yes, especially for offices and shops, so your business is not disturbed."
+    ],
+    [
+     "Do you give a warranty?",
+     "Yes. All painting work comes with our 90-day workmanship warranty."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/paint-villa-team-evening.jpg",
+   "photoAlt": "Three NAVA INTERIOR painters repainting a villa living room and stairwell, furniture wrapped and floors protected",
+   "photo2": "img/paint-apartment-marina.jpg",
+   "photo2Alt": "NAVA INTERIOR painter rolling a sea-view apartment wall in Dubai Marina",
+   "time": "1–3 days"
+  },
+  {
+   "id": "carpentry",
+   "name": "Carpentry",
+   "cat": "Renovation",
+   "short": "Wardrobe repairs, furniture assembly, shelves, hinges and custom joinery.",
+   "intro": "Carpenters for everyday fixes and bigger builds: wardrobes that won't close, sagging kitchen cabinet doors, broken drawer runners, IKEA assembly and made-to-measure shelving. We work on a protective mat, bring every tool and fitting to the job, and adjust hinges and runners until every door closes flush and every drawer runs smoothly.",
+   "includes": [
+    "Wardrobe repair and fitting",
+    "Kitchen cabinet door alignment",
+    "Hinge and soft-close upgrades",
+    "Drawer runner replacement",
+    "Furniture assembly",
+    "Shelf and rack fitting",
+    "Wooden door planing",
+    "Custom joinery quotes"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you build custom units?",
+     "Yes. We measure on site and send a fixed quote with drawings within 48 hours."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/carpentry-wardrobe-fitting.jpg",
+   "photoAlt": "NAVA INTERIOR carpenter fitting shelves and hinges in a new oak wardrobe",
+   "photo2": "img/carpentry-kitchen-cabinets.jpg",
+   "photo2Alt": "Carpenter aligning white kitchen wall cabinet doors",
+   "time": "1–4 hours"
+  },
+  {
+   "id": "tile-work",
+   "name": "Tile installation",
+   "cat": "Renovation",
+   "short": "Large-format porcelain, marble and ceramic tiling for floors, walls, bathrooms and kitchens.",
+   "intro": "Precise tiling that looks perfect and lasts. Our tile setters install large-format porcelain slabs, marble, ceramic and mosaic on floors and walls in bathrooms, kitchens, living areas and terraces. We prepare and level the surface, back-butter every tile for full adhesive coverage, and use laser levels and tile levelling clips so every joint is straight and every edge is flush, with no hollow spots or lippage.",
+   "includes": [
+    "Surface levelling and preparation",
+    "Waterproofing in wet areas",
+    "Large-format slabs up to 120 × 280 cm",
+    "Marble, porcelain, ceramic and mosaic",
+    "Laser setting-out and levelling clips",
+    "Back-buttering for full coverage",
+    "Mitred corners and clean cuts",
+    "Epoxy or cement grout and silicone"
+   ],
+   "process": [
+    [
+     "Survey & setting-out",
+     "We check the floor and walls are level and plan the tile layout so cuts are balanced and hidden."
+    ],
+    [
+     "Preparation",
+     "Old tiles are removed if needed, surfaces are levelled and wet areas are waterproofed."
+    ],
+    [
+     "Installation",
+     "Tiles are fixed with the correct adhesive, back-buttered and aligned with laser and levelling clips."
+    ],
+    [
+     "Grouting & sealing",
+     "Joints are grouted with epoxy or cement grout and edges sealed with silicone."
+    ],
+    [
+     "Clean & handover",
+     "Haze is removed, tiles cleaned and the finished surface checked with you."
+    ]
+   ],
+   "processTitle": "Our tiling process",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you install large-format slabs?",
+     "Yes. We handle porcelain slabs up to 120 × 280 cm with suction lifters and levelling systems."
+    ],
+    [
+     "Can you tile over existing tiles?",
+     "Sometimes, if the old tiles are solid and level. We check on site and advise."
+    ],
+    [
+     "How do you avoid uneven tiles?",
+     "We use laser levels and tile levelling clips, and back-butter large tiles so there are no hollow spots."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/tile-marble-installation.jpg",
+   "photoAlt": "NAVA INTERIOR tiler fixing large-format marble-look slabs with a levelling system in a Dubai high-rise bathroom",
+   "photo2": "img/tile-porcelain-bathroom.jpg",
+   "photo2Alt": "Tiler setting large grey porcelain wall tiles with a notched trowel and spacers",
+   "time": "Half day – 3 days"
+  },
+  {
+   "id": "water-heaters",
+   "name": "Water heater installation & repair",
+   "cat": "Technical",
+   "short": "Electric water heaters supplied, installed and repaired, including ceiling-mounted units on steel frames.",
+   "intro": "No hot water, a tripping heater or a leaking tank. We repair and replace all common brands, including Ariston, Midea, Racold and Zenith. Most UAE apartments hide the heater above the false ceiling, so we fix it on a proper steel frame, fit new isolation and safety valves, and connect it with PPR pipework so it is safe and easy to service later.",
+   "includes": [
+    "Old heater removal and disposal",
+    "Steel frame or wall bracket",
+    "New isolation and safety valves",
+    "PPR hot and cold pipework",
+    "Electrical connection and isolator",
+    "Element and thermostat replacement",
+    "Leak and pressure test",
+    "Ceiling panel refit"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you install a heater above the false ceiling?",
+     "Yes. Most apartments in Dubai have them there. We mount it on a steel frame fixed to the slab, add an access panel and test for leaks before closing up."
+    ],
+    [
+     "Which size do I need?",
+     "50 L suits one bathroom, 80 L two bathrooms, and 100 L a family apartment or villa floor."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/heater-team-install.jpg",
+   "photoAlt": "Two NAVA INTERIOR technicians installing a horizontal water heater on a steel frame in a ceiling space, using a laser level",
+   "photo2": "img/heater-ceiling-install.jpg",
+   "photo2Alt": "Horizontal electric water heater installed above a false ceiling with new PPR pipework and valves",
+   "time": "60–120 min"
+  },
+  {
+   "id": "tv-mounting",
+   "name": "TV installation & wall mounting",
+   "cat": "Technical",
+   "short": "TVs up to 100 inches mounted level on any wall, with hidden cables and soundbar setup.",
+   "intro": "Your TV mounted safely, perfectly level and at the right viewing height. We check the wall type first: concrete and block walls get heavy-duty anchors, and gypsum walls get a backing board or fixings into the metal studs, so the bracket never pulls out. We measure and mark the bracket holes, hide the cables inside the wall or in slim trunking, mount the soundbar underneath and set up your TV, Wi-Fi and streaming apps before we leave.",
+   "includes": [
+    "Wall type check and pipe/cable scan",
+    "Fixed, tilt or full-motion bracket",
+    "Heavy-duty anchors or gypsum backing",
+    "Laser-level mounting",
+    "Cables hidden in wall or trunking",
+    "Soundbar and receiver mounting",
+    "TV, Wi-Fi and apps setup",
+    "Packaging removal and clean-up"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you mount a TV on a gypsum wall?",
+     "Yes. We fix into the metal studs or add a backing board, so the gypsum never carries the full weight."
+    ],
+    [
+     "What height should my TV be?",
+     "The middle of the screen at seated eye level, usually about 100–110 cm from the floor. We mark it and check with you before drilling."
+    ],
+    [
+     "Do you bring the bracket?",
+     "We can supply fixed, tilt and full-motion brackets for every size, or fit the one that came with your TV."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/tv-wall-mounting-dubai.jpg",
+   "photoAlt": "NAVA INTERIOR technician mounting a large TV on a living room wall with a Dubai skyline view",
+   "photo2": "img/tv-bracket-measuring.jpg",
+   "photo2Alt": "Technician measuring and fitting the wall bracket to the back of a TV",
+   "time": "45–90 min"
+  },
+  {
+   "id": "doors-locks",
+   "name": "Doors & locks",
+   "cat": "Technical",
+   "short": "Door hinges, alignment, lock changes, smart locks and handle replacement.",
+   "intro": "Doors that drop, rub on the floor, won't latch or squeak. Most of the time the hinges have worked loose or worn out. We tighten or replace the hinges, re-align the door so it closes smoothly with an even gap, and change locks, handles and cylinders. We also fit smart locks and door closers.",
+   "includes": [
+    "Hinge tightening and replacement",
+    "Door alignment and planing",
+    "Lock and cylinder change",
+    "Handle replacement",
+    "Smart lock installation",
+    "Door closer and stopper fitting"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Which smart locks do you fit?",
+     "Most brands sold in the UAE, including Yale, Samsung and Aqara."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/door-hinge-repair.jpg",
+   "photoAlt": "Technician tightening a stainless steel hinge on a wooden interior door",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "30–90 min"
+  },
+  {
+   "id": "gypsum",
+   "name": "False ceiling & gypsum works",
+   "cat": "Renovation",
+   "short": "Gypsum false ceilings, cove lighting, cornices, linear lights and partitions for villas, apartments and offices.",
+   "intro": "A well-designed ceiling changes the whole room. NAVA INTERIOR designs and installs gypsum false ceilings for villas, apartments, majlis rooms and offices, from clean modern drops with hidden LED strips and linear lights to classic multi-level ceilings with decorative cornices. We build a galvanised metal frame fixed to the slab, level it with a laser, fit moisture-resistant boards where needed, tape and finish every joint and leave it ready for paint, with access panels for AC and plumbing.",
+   "includes": [
+    "Ceiling design and lighting layout",
+    "Galvanised metal frame",
+    "Standard, moisture- and fire-rated boards",
+    "Cove and hidden LED strip troughs",
+    "Linear and recessed light cut-outs",
+    "Decorative cornice and mouldings",
+    "Access panels for AC and plumbing",
+    "Jointing, sanding and paint-ready finish"
+   ],
+   "process": [
+    [
+     "Design & layout",
+     "We measure the room and plan levels, lighting, AC grilles and access points with you."
+    ],
+    [
+     "Framing",
+     "A galvanised metal frame is fixed to the slab and levelled with a laser."
+    ],
+    [
+     "Boarding",
+     "Gypsum boards are fixed, with cut-outs for lights, grilles and access panels."
+    ],
+    [
+     "Details & lighting",
+     "Cove troughs, cornices and mouldings are fitted and LED strips and lights wired in."
+    ],
+    [
+     "Finishing",
+     "Joints are taped, filled and sanded, then primed and painted for a flawless finish."
+    ]
+   ],
+   "processTitle": "How we build your ceiling",
+   "finishes": [
+    [
+     "Modern drop ceiling",
+     "Clean, flat levels with shadow gaps. Ideal for apartments and offices."
+    ],
+    [
+     "Cove lighting",
+     "Hidden LED strips that wash the ceiling with soft light."
+    ],
+    [
+     "Linear & magnetic track lights",
+     "Slim recessed light lines for a contemporary look."
+    ],
+    [
+     "Classic cornice & mouldings",
+     "Multi-level ceilings with decorative cornice for majlis and villas."
+    ],
+    [
+     "Moisture-resistant ceilings",
+     "For bathrooms, kitchens and laundry rooms."
+    ],
+    [
+     "Partitions & bulkheads",
+     "Gypsum walls, boxing for ducts and feature bulkheads."
+    ]
+   ],
+   "finishesTitle": "Ceiling designs we install",
+   "faq": [
+    [
+     "How long does a false ceiling take?",
+     "A typical room takes 2–4 days including finishing; a full apartment about 1–2 weeks."
+    ],
+    [
+     "Will it hide my AC ducts?",
+     "Yes. We box in ducts and pipes and add access panels so they can still be serviced."
+    ],
+    [
+     "Can you repair a ceiling damaged by a leak?",
+     "Yes. We fix the leak first, then replace and repaint the damaged section to match."
+    ],
+    [
+     "Is gypsum safe in bathrooms?",
+     "Yes, using moisture-resistant boards and proper ventilation."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/ceiling-majlis-cornice.jpg",
+   "photoAlt": "NAVA INTERIOR team installing a multi-level gypsum ceiling with decorative cornice and cove lighting in a Dubai majlis",
+   "photo2": "img/ceiling-gypsum-boards.jpg",
+   "photo2Alt": "NAVA INTERIOR team fixing gypsum boards to a metal ceiling frame, levelled with a laser",
+   "time": "Half day – 4 days"
+  },
+  {
+   "id": "renovation",
+   "name": "Renovation",
+   "cat": "Renovation",
+   "short": "Kitchen and bathroom upgrades, flooring and full apartment refurbishment.",
+   "intro": "Managed renovation for apartments and villas. One project manager, a fixed scope and staged payments. We handle building NOCs where they're needed.",
+   "includes": [
+    "Site survey and 3D concept",
+    "Kitchen and bathroom remodels",
+    "Flooring and skirting",
+    "Building NOC handling",
+    "Staged payments",
+    "Handover snag list"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do you handle building approvals?",
+     "Yes. We prepare and submit the NOC paperwork that most Dubai communities need before work starts."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Renovation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–6 weeks"
+  },
+  {
+   "id": "appliance-repair",
+   "name": "Appliance repair",
+   "cat": "Technical",
+   "short": "Washing machines, dryers, fridges, ovens and dishwashers repaired on site.",
+   "intro": "Washing machine not draining, fridge not cooling or oven not heating? Our technicians diagnose and repair the major home appliance brands sold in the UAE at your home, and carry common spare parts so most repairs are done in one visit.",
+   "includes": [
+    "Washing machines and dryers",
+    "Fridges and freezers",
+    "Dishwashers",
+    "Ovens, cookers and hobs",
+    "Microwaves and built-in units",
+    "Genuine or quality spare parts"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Which brands do you repair?",
+     "Most brands sold in the UAE, including Samsung, LG, Bosch, Siemens, Whirlpool, Ariston and Beko."
+    ],
+    [
+     "Is it worth repairing an old appliance?",
+     "We tell you honestly after diagnosis. If repair costs more than replacing it, we will say so."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Appliance repair",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "60–120 min"
+  },
+  {
+   "id": "annual-maintenance-contracts",
+   "name": "Annual maintenance contracts",
+   "cat": "Technical",
+   "short": "Scheduled AC, plumbing and electrical checks for apartments and villas, with priority call-outs.",
+   "intro": "One yearly contract covers the regular care your home needs. Our team visits on a fixed schedule to service the AC, check plumbing and electrical, and fix small issues before they turn into big repairs. Contract customers get priority call-outs and discounted parts.",
+   "includes": [
+    "Scheduled AC servicing",
+    "Plumbing and leak checks",
+    "Electrical safety checks",
+    "Water heater inspection",
+    "Priority emergency call-outs",
+    "Discounted parts and labour",
+    "Digital visit reports",
+    "Apartment, villa and office plans"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How many visits are included?",
+     "Most plans include 3–4 scheduled visits a year plus unlimited priority call-outs. We tailor the plan to your property."
+    ],
+    [
+     "Is it worth it for a small apartment?",
+     "Yes. Regular AC servicing alone prevents most summer breakdowns and lowers electricity bills."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Annual maintenance contracts",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "12 months"
+  },
+  {
+   "id": "awnings-and-shade-sails",
+   "name": "Awnings & shade sails",
+   "cat": "Renovation",
+   "short": "Retractable awnings, shade sails and car park shades for villas.",
+   "intro": "Stay cool outdoors with shade made for the UAE sun. We supply and install retractable awnings, tensioned shade sails and car park shades for villas, terraces and gardens, using UV-stabilised fabric and galvanised steel posts.",
+   "includes": [
+    "Site measurement and design",
+    "Retractable and fixed awnings",
+    "Tensioned shade sails",
+    "Car park shades",
+    "UV-stabilised fabric",
+    "Galvanised or powder-coated posts"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Will the fabric fade in the sun?",
+     "We use UV-stabilised, high-density fabric designed for desert climates, available in many colours."
+    ],
+    [
+     "Can shade sails handle strong winds?",
+     "Yes. Posts are concreted in and sails are tensioned correctly to handle UAE shamal winds."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Awnings & shade sails",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "bathroom-renovation",
+   "name": "Bathroom renovation",
+   "cat": "Renovation",
+   "short": "Complete bathroom remodelling in Dubai: design, waterproofing, tiling, sanitaryware, vanity and glass, fully managed.",
+   "intro": "Turn a dated or leaking bathroom into a modern, easy-to-clean space. NAVA INTERIOR manages the whole project with one team: design, building approvals, strip-out, new plumbing and drainage, full waterproofing with a flood test, tiling, sanitaryware, vanity, glass shower screen, lighting and ventilation. You get one point of contact, a clear written scope and a schedule you can plan around, whether it is a small apartment bathroom, an en-suite or a luxury villa master bath.",
+   "includes": [
+    "Free design consultation and 3D concept",
+    "Building or community NOC handling",
+    "Strip-out and debris removal",
+    "New water supply and drainage pipes",
+    "Full waterproofing and 24-hour flood test",
+    "Floor and wall tiling, large-format available",
+    "Concealed cisterns and wall-hung WCs",
+    "Vanity, mirror cabinet and storage",
+    "Frameless glass shower screen",
+    "Lighting, exhaust fan and electrical points"
+   ],
+   "process": [
+    [
+     "Consultation & design",
+     "We visit, measure and listen to how you use the bathroom, then present a layout, 3D concept and material options."
+    ],
+    [
+     "Scope & schedule",
+     "You receive a written scope listing every item, the chosen materials and a day-by-day schedule."
+    ],
+    [
+     "Approvals",
+     "We prepare and submit the NOC paperwork your building or community requires."
+    ],
+    [
+     "Strip-out & plumbing",
+     "Old fittings and tiles are removed, and new supply and drainage pipes are installed and pressure-tested."
+    ],
+    [
+     "Waterproofing & flood test",
+     "A membrane is applied to the floor and shower walls, then flooded for 24 hours to prove it is leak-proof."
+    ],
+    [
+     "Tiling & installation",
+     "Tiles, sanitaryware, vanity, glass, lighting and accessories are installed to a precise finish."
+    ],
+    [
+     "Handover",
+     "Final walk-through, silicone and snag fixes, deep clean and warranty documents."
+    ]
+   ],
+   "processTitle": "Our bathroom renovation process",
+   "finishes": [
+    [
+     "Walk-in shower",
+     "Replace the bathtub with a level-access shower and frameless glass for a bigger, brighter room."
+    ],
+    [
+     "Concealed cistern & wall-hung WC",
+     "Hidden tank in the wall for a cleaner look and easier floor cleaning."
+    ],
+    [
+     "Large-format tiles",
+     "Fewer grout lines, a seamless look and much easier cleaning."
+    ],
+    [
+     "Floating vanity",
+     "Wall-hung vanity with soft-close drawers and an LED mirror cabinet."
+    ],
+    [
+     "Rain shower & thermostatic mixer",
+     "Hotel-style shower with constant, safe water temperature."
+    ],
+    [
+     "Niches & feature walls",
+     "Built-in shower niches and a statement tile wall."
+    ]
+   ],
+   "finishesTitle": "Popular bathroom upgrades",
+   "faq": [
+    [
+     "How long does a bathroom renovation take?",
+     "Usually 2–3 weeks for a standard bathroom, including waterproofing tests and tile curing. Small refreshes can take less than a week."
+    ],
+    [
+     "Can I use my own tiles and fittings?",
+     "Yes. You can supply your own, or choose from our supplier range at trade prices."
+    ],
+    [
+     "Will my bathroom leak afterwards?",
+     "We flood-test every floor for 24 hours before tiling, so leaks are found and fixed before anything is covered."
+    ],
+    [
+     "Do you renovate bathrooms in occupied apartments?",
+     "Yes. We protect corridors and floors, follow building working hours and clean up daily."
+    ],
+    [
+     "Can you change the layout?",
+     "Yes, including moving the shower, WC or vanity, subject to drainage and building approval."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/bathroom-finished-downtown.jpg",
+   "photoAlt": "Finished luxury bathroom with marble walls, walk-in glass shower, wall-hung WC and Burj Khalifa view",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–3 weeks"
+  },
+  {
+   "id": "blinds-and-curtains-installation",
+   "name": "Blinds & curtains installation",
+   "cat": "Technical",
+   "short": "Roller, blackout and motorised blinds, curtain rails and tracks fitted.",
+   "intro": "Curtain rails, tracks and blinds fitted straight, level and secure. We install roller, blackout, zebra, Roman and motorised blinds, and curtain tracks recessed into gypsum ceilings for a clean hotel look.",
+   "includes": [
+    "Curtain rods and tracks",
+    "Ceiling-recessed tracks",
+    "Roller and blackout blinds",
+    "Zebra and Roman blinds",
+    "Motorised blinds and setup",
+    "Fixing into concrete or gypsum"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you install blinds I bought online?",
+     "Yes. We fit blinds and curtains from any shop, or help you order the right size."
+    ],
+    [
+     "Can motorised blinds work with my phone?",
+     "Yes. We set up the remote, app or smart home control."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Blinds & curtains installation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 hours"
+  },
+  {
+   "id": "cctv-and-intercom",
+   "name": "CCTV camera installation",
+   "cat": "Technical",
+   "short": "HD and 4K security cameras for villas, apartments, shops and offices, with live view on your phone.",
+   "intro": "Protect your home or business with professionally installed CCTV. We plan camera positions to cover gates, driveways, entrances and blind spots, run cables neatly in conduit, and set up live viewing and playback on your phone. Outdoor cameras are weatherproof and built for UAE heat, dust and humidity, with night vision for clear footage after dark.",
+   "includes": [
+    "Free site survey and camera plan",
+    "HD / 4K indoor and outdoor cameras",
+    "Night vision and motion alerts",
+    "NVR / DVR recorder with hard drive",
+    "Neat cabling in conduit",
+    "Weatherproof junction boxes",
+    "Mobile app live view and playback",
+    "Video doorbells and intercoms"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can I watch the cameras on my phone?",
+     "Yes. We set up the app on your phone and family members' phones, with live view, playback and motion alerts."
+    ],
+    [
+     "How long is footage stored?",
+     "Usually 15–30 days depending on the number of cameras and the hard drive size. We can fit a larger drive or cloud backup."
+    ],
+    [
+     "Do the cameras work at night?",
+     "Yes. All our outdoor cameras have infrared or colour night vision."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/cctv-nava-team-villa.jpg",
+   "photoAlt": "Two NAVA INTERIOR technicians installing an outdoor CCTV camera on a Dubai villa, with the company van parked nearby",
+   "photo2": "img/cctv-villa-dubai.jpg",
+   "photo2Alt": "Outdoor security camera mounted on a Dubai villa wall covering the gate and driveway",
+   "time": "Half day – 1 day"
+  },
+  {
+   "id": "ceiling-fans-and-exhaust-fans",
+   "name": "Ceiling fans & exhaust fans",
+   "cat": "Technical",
+   "short": "Install or replace ceiling, bathroom and kitchen exhaust fans.",
+   "intro": "Better air in kitchens, bathrooms and living rooms. We install and replace ceiling fans, bathroom and kitchen exhaust fans, and inline fans in ducts, wired safely and checked for noise and airflow.",
+   "includes": [
+    "Ceiling fan installation",
+    "Bathroom exhaust fans",
+    "Kitchen extract fans",
+    "Inline duct fans",
+    "Wiring and switch connection",
+    "Noise and airflow check"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "My bathroom fan is noisy. Can you fix it?",
+     "Usually the motor or bearings are worn. Replacing the fan is quick and inexpensive."
+    ],
+    [
+     "Can you fit a fan on a gypsum ceiling?",
+     "Yes. Heavy ceiling fans are fixed to the concrete slab or a support bracket, not the gypsum board."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Ceiling fans & exhaust fans",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "60–90 min"
+  },
+  {
+   "id": "concrete-and-masonry",
+   "name": "Concrete & masonry",
+   "cat": "Renovation",
+   "short": "Blockwork, plastering, wall repairs and small concrete works.",
+   "intro": "Solid building work for homes and villas: block walls, plastering, wall repairs, steps, ramps and small concrete slabs, done by experienced masons with a clean, level finish ready for paint or tiles.",
+   "includes": [
+    "Block wall construction",
+    "Cement plastering",
+    "Wall crack and spall repair",
+    "Steps, ramps and kerbs",
+    "Small concrete slabs",
+    "Debris removal"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do you need approval for new walls?",
+     "For structural or external changes, yes. We advise on and arrange community and municipality approvals."
+    ],
+    [
+     "Can you repair cracked plaster?",
+     "Yes. We cut out loose plaster, re-plaster and leave it ready for painting."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Concrete & masonry",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–5 days"
+  },
+  {
+   "id": "duct-cleaning",
+   "name": "Duct cleaning",
+   "cat": "Technical",
+   "short": "AC duct and vent cleaning with sanitising, for better air and cooling.",
+   "intro": "Dust, mould and bacteria build up inside AC ducts and make you breathe dirty air. We clean ducts from end to end with rotary brushes and high-power vacuum, wash and sanitise grilles, clean the AC unit coil and drain, and show you before and after photos.",
+   "includes": [
+    "Inspection with duct camera",
+    "Rotary brush duct cleaning",
+    "High-power HEPA vacuum",
+    "Grille and diffuser washing",
+    "Anti-bacterial sanitising",
+    "AC coil and drain cleaning",
+    "Before and after photos",
+    "Dubai Municipality approved methods"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How often should ducts be cleaned?",
+     "Once a year for most homes, or every 6 months if you have allergies, pets or nearby construction."
+    ],
+    [
+     "Is it messy?",
+     "No. We seal the vents and use HEPA vacuum, so dust does not spread into your home."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/ac-grille-service.jpg",
+   "photoAlt": "NAVA INTERIOR technicians removing linear AC grilles for cleaning",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "Half day"
+  },
+  {
+   "id": "epoxy-flooring",
+   "name": "Epoxy flooring",
+   "cat": "Renovation",
+   "short": "Seamless epoxy floors for garages, storerooms and commercial spaces.",
+   "intro": "Seamless, tough and easy-to-clean floors for garages, warehouses, kitchens, clinics and showrooms. We grind and prepare the concrete, then apply primer and epoxy coats with optional anti-slip or decorative flake finish.",
+   "includes": [
+    "Concrete grinding and repair",
+    "Epoxy primer",
+    "Self-levelling or roller coat",
+    "Anti-slip finish",
+    "Decorative flakes or metallic",
+    "Line marking"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long before I can use the floor?",
+     "Light foot traffic after 24 hours, and full use including cars after about 5–7 days."
+    ],
+    [
+     "Is epoxy slippery?",
+     "We add an anti-slip grit where needed, for garages, kitchens and wet areas."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Epoxy flooring",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–4 days"
+  },
+  {
+   "id": "fit-out-office-and-retail",
+   "name": "Fit-out (office & retail)",
+   "cat": "Renovation",
+   "short": "Turnkey office and shop fit-outs, including partitions, ceilings, MEP and authority approvals.",
+   "intro": "Turnkey fit-out for offices, shops, clinics and restaurants. One team manages design, approvals, partitions, ceilings, flooring, electrical, plumbing, HVAC and joinery, and hands over on time and ready to open.",
+   "includes": [
+    "Space planning and 3D design",
+    "Authority and mall approvals",
+    "Partitions and glass walls",
+    "Ceilings and lighting",
+    "Flooring and finishes",
+    "MEP: electrical, plumbing, HVAC",
+    "Custom joinery and counters",
+    "Project management to handover"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do you handle Dubai Municipality and Civil Defence approvals?",
+     "Yes. We prepare drawings and manage approvals with the authorities and the landlord."
+    ],
+    [
+     "Can you work while my business is open?",
+     "Yes, we can phase the work and schedule noisy tasks at night or on weekends."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Fit-out (office & retail)",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–8 weeks"
+  },
+  {
+   "id": "flooring-parquet-vinyl-laminate",
+   "name": "Flooring (parquet, vinyl, laminate)",
+   "cat": "Renovation",
+   "short": "Supply and installation of parquet, SPC vinyl and laminate flooring, priced per m².",
+   "intro": "New floors in days, not weeks. We supply and install parquet, engineered wood, SPC vinyl and laminate flooring, often laid directly over your existing tiles, with matching skirting and clean transition strips.",
+   "includes": [
+    "Floor levelling check",
+    "Parquet and engineered wood",
+    "SPC vinyl, waterproof",
+    "Laminate flooring",
+    "Underlay and moisture barrier",
+    "Skirting and transition strips"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you install over existing tiles?",
+     "Yes, in most cases. It saves time, money and dust."
+    ],
+    [
+     "Which floor is best for kitchens and bathrooms?",
+     "SPC vinyl, because it is 100% waterproof and very durable."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Flooring (parquet, vinyl, laminate)",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 days"
+  },
+  {
+   "id": "glass-and-mirrors",
+   "name": "Glass & mirrors",
+   "cat": "Technical",
+   "short": "Shower screens, mirrors, glass partitions and broken glass replacement.",
+   "intro": "Custom-cut glass and mirrors fitted safely. We supply and install frameless shower screens, wall mirrors, glass partitions, glass splashbacks and replace broken windows and table tops.",
+   "includes": [
+    "Frameless shower screens",
+    "Wall and gym mirrors",
+    "Glass partitions",
+    "Glass splashbacks",
+    "Broken glass replacement",
+    "Tempered safety glass"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Is shower glass safe?",
+     "Yes. We use tempered safety glass that breaks into small blunt pieces, not sharp shards."
+    ],
+    [
+     "How long does custom glass take?",
+     "Usually 3–5 working days from measurement to installation."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Glass & mirrors",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 hours"
+  },
+  {
+   "id": "small-home-repairs",
+   "name": "Small home repairs",
+   "cat": "Technical",
+   "short": "Small jobs list: hanging pictures, curtain rods, shelves, silicone, minor fixes.",
+   "intro": "Have a list of small jobs? Book a skilled technician by the hour. Hanging pictures and mirrors, curtain rods, shelves, silicone, door handles, small repairs and touch-ups, all done in one visit by one person with all the tools.",
+   "includes": [
+    "Hanging pictures and mirrors",
+    "Curtain rods and shelves",
+    "Silicone and sealant renewal",
+    "Door handles and stoppers",
+    "Small repairs and touch-ups",
+    "Furniture adjustments"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "What can I get done in one hour?",
+     "Usually 3–5 small tasks. Send us your list and we will estimate the time."
+    ],
+    [
+     "Do you bring tools and fixings?",
+     "Yes. Our technician carries a full toolkit with screws, anchors and sealants."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Small home repairs",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "Per hour"
+  },
+  {
+   "id": "home-automation",
+   "name": "Home automation",
+   "cat": "Technical",
+   "short": "Smart switches, lighting scenes, sensors and voice control setup.",
+   "intro": "Control lights, AC, curtains and security from your phone or by voice. We install smart switches, sensors, smart AC controllers and hubs that work with Alexa, Google Home and Apple Home, and set up scenes like Good Night and Away.",
+   "includes": [
+    "Smart switches and dimmers",
+    "Smart AC controllers",
+    "Motorised curtains and blinds",
+    "Motion and door sensors",
+    "Voice assistant setup",
+    "Scenes and schedules"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do I need to rewire my home?",
+     "No. Most smart switches replace your existing ones using the same wiring."
+    ],
+    [
+     "Which systems do you support?",
+     "Alexa, Google Home, Apple Home, Tuya and Zigbee-based systems."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Home automation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "Half day"
+  },
+  {
+   "id": "interior-design",
+   "name": "Interior design",
+   "cat": "Renovation",
+   "short": "Layouts, 3D visuals and material selection before your renovation starts.",
+   "intro": "Plan your space before you renovate. Our designers create layouts, 3D visuals and material boards, so you can see exactly how your home or office will look, and we then build it with our own teams.",
+   "includes": [
+    "Site measurement",
+    "Space planning and layouts",
+    "3D visuals",
+    "Material and colour boards",
+    "Lighting design",
+    "Design-and-build option"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can I use the design with another contractor?",
+     "Yes, the drawings are yours. Most clients choose our teams for one point of contact."
+    ],
+    [
+     "How long does a design take?",
+     "Usually 1–3 weeks depending on size and revisions."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Interior design",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 weeks"
+  },
+  {
+   "id": "joinery-and-custom-cabinets",
+   "name": "Joinery & custom cabinets",
+   "cat": "Renovation",
+   "short": "Made-to-measure wardrobes, TV units, vanities and kitchen cabinets.",
+   "intro": "Made-to-measure wardrobes, kitchen cabinets, TV units and vanities, built to fit your space exactly. We measure on site, send drawings and a fixed quote within 48 hours, and install with soft-close hinges and drawers as standard.",
+   "includes": [
+    "On-site measurement",
+    "Drawings and fixed quote in 48 hours",
+    "Choice of finishes and colours",
+    "Soft-close hinges and drawers",
+    "Installation and levelling",
+    "Handles and accessories fitted"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long does custom joinery take?",
+     "Usually 2–3 weeks from approved drawings to installation."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/joinery-kitchen-team.jpg",
+   "photoAlt": "Two NAVA INTERIOR joiners fitting custom wall cabinets and a kitchen island",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 weeks"
+  },
+  {
+   "id": "kitchen-renovation",
+   "name": "Kitchen renovation",
+   "cat": "Renovation",
+   "short": "New cabinets, worktops, backsplash, plumbing and appliance installation.",
+   "intro": "A new kitchen built around how you cook and live. We design the layout, build custom cabinets, fit quartz or granite worktops, renew plumbing and electrical, tile the backsplash and install appliances.",
+   "includes": [
+    "Layout design and 3D",
+    "Custom cabinets, soft-close",
+    "Quartz or granite worktops",
+    "Backsplash tiling",
+    "Plumbing and electrical updates",
+    "Appliance installation",
+    "Lighting under cabinets",
+    "Building NOC handling"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long does a kitchen renovation take?",
+     "Usually 3–4 weeks, including cabinet production."
+    ],
+    [
+     "Can I keep my existing appliances?",
+     "Yes. We design the cabinets around them."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/joinery-kitchen-team.jpg",
+   "photoAlt": "Two NAVA INTERIOR joiners installing custom wood kitchen cabinets and an island in a Dubai penthouse",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "3–4 weeks"
+  },
+  {
+   "id": "landscaping-and-irrigation",
+   "name": "Landscaping & irrigation",
+   "cat": "Renovation",
+   "short": "Garden design, artificial grass, planting and automatic irrigation systems.",
+   "intro": "Gardens that look good and survive the UAE heat. We design and build gardens with artificial grass, planting, paving, lighting and automatic drip irrigation that saves water.",
+   "includes": [
+    "Garden design",
+    "Artificial and natural grass",
+    "Heat-tolerant planting",
+    "Paving and pathways",
+    "Automatic drip irrigation",
+    "Garden lighting"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Which plants survive UAE summers?",
+     "Bougainvillea, date palms, ixora and ornamental grasses, with drip irrigation."
+    ],
+    [
+     "Is artificial grass hot in summer?",
+     "It warms up in direct sun. We recommend shade or cooler grass types for play areas."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Landscaping & irrigation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–10 days"
+  },
+  {
+   "id": "lighting-design-and-installation",
+   "name": "Lighting design & installation",
+   "cat": "Technical",
+   "short": "Spotlights, LED strips, cove lighting and outdoor lighting plans.",
+   "intro": "The right lighting changes a room. We plan and install spotlights, LED strips, cove lighting, pendant lights and outdoor lighting, with dimmers and smart control for the perfect mood.",
+   "includes": [
+    "Lighting plan",
+    "Recessed spotlights",
+    "LED strip and cove lighting",
+    "Pendant and wall lights",
+    "Outdoor and garden lighting",
+    "Dimmers and smart control"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Warm or cool white?",
+     "Warm white (2700–3000K) for living and bedrooms, and neutral (4000K) for kitchens and offices."
+    ],
+    [
+     "Can you add spotlights to my gypsum ceiling?",
+     "Yes. We cut, wire and fit them neatly with no visible damage."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Lighting design & installation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "marble-polishing",
+   "name": "Marble polishing",
+   "cat": "Renovation",
+   "short": "Grinding, polishing and crystallising marble floors, priced per m².",
+   "intro": "Dull, scratched or stained marble restored to a mirror shine. We grind out scratches and lippage, hone and polish in stages, then crystallise and seal to protect the floor.",
+   "includes": [
+    "Diamond grinding",
+    "Scratch and stain removal",
+    "Multi-stage honing",
+    "Polishing and crystallisation",
+    "Protective sealer",
+    "Furniture moving"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long does the shine last?",
+     "With proper cleaning, 1–2 years in homes. We advise on the right cleaning products."
+    ],
+    [
+     "Is it dusty?",
+     "No. We use wet grinding, which keeps dust to a minimum."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Marble polishing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "move-in-move-out-repairs",
+   "name": "Move-in / move-out repairs",
+   "cat": "Technical",
+   "short": "Snagging fixes, touch-up paint and repairs to pass landlord inspections.",
+   "intro": "Get your deposit back or move into a fresh home. We fix everything on your landlord's or snagging list: wall holes, touch-up paint, silicone, broken handles, lights and leaks, in one or two days.",
+   "includes": [
+    "Wall holes and touch-up paint",
+    "Full repaint if needed",
+    "Silicone renewal",
+    "Handles, hinges and locks",
+    "Light fittings and bulbs",
+    "Small leak repairs"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you work from my landlord's checklist?",
+     "Yes. Send us the list and photos and we will cover every item."
+    ],
+    [
+     "Can you finish before my handover date?",
+     "Yes, most move-out jobs are completed in 1–2 days."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Move-in / move-out repairs",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "network-and-wi-fi-cabling",
+   "name": "Network & Wi-Fi cabling",
+   "cat": "Technical",
+   "short": "Data points, mesh Wi-Fi, network racks and cable runs.",
+   "intro": "Fast, reliable internet in every room. We run Cat6 data cables, install data points, set up mesh Wi-Fi to remove dead zones, and organise network racks for homes and offices.",
+   "includes": [
+    "Cat6 data cabling",
+    "Wall data points",
+    "Mesh Wi-Fi setup",
+    "Network racks and patch panels",
+    "Router and switch setup",
+    "Speed testing"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Why is my Wi-Fi weak in some rooms?",
+     "Concrete walls block Wi-Fi. A mesh system or a wired access point fixes it."
+    ],
+    [
+     "Do you work with du and Etisalat routers?",
+     "Yes. We set up your existing router or upgrade your network around it."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Network & Wi-Fi cabling",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "Half day"
+  },
+  {
+   "id": "pergolas-and-outdoor-structures",
+   "name": "Pergolas & outdoor structures",
+   "cat": "Renovation",
+   "short": "Aluminium, timber and louvred pergolas for villa gardens, rooftops and terraces, with built-in LED lighting.",
+   "intro": "Turn your terrace, rooftop or garden into an outdoor living room you can use all year. NAVA INTERIOR designs and installs pergolas built for the UAE climate: powder-coated aluminium frames that never rust, timber-look composite or real wood slats, and motorised louvred roofs that open for the breeze or close against sun and rain. Every post is anchored to a proper base plate, levelled with a laser, and we can add LED strip lighting, ceiling fans, misting systems and privacy screens.",
+   "includes": [
+    "Site survey and 3D design",
+    "Powder-coated aluminium frames",
+    "Timber-look composite or wood slats",
+    "Motorised louvred roof option",
+    "Anchored base plates and laser levelling",
+    "Integrated LED lighting",
+    "Fans, misting and heaters",
+    "Side screens and privacy panels"
+   ],
+   "process": [
+    [
+     "Survey & design",
+     "We measure the space, check the floor and roof, and show you a 3D design with colour and slat options."
+    ],
+    [
+     "Approval",
+     "Where your community requires it, we prepare and submit the drawings."
+    ],
+    [
+     "Fabrication",
+     "Frames and slats are cut and powder-coated to size in our workshop."
+    ],
+    [
+     "Installation",
+     "Posts are anchored and levelled, beams and slats fixed, and lighting wired in."
+    ],
+    [
+     "Finishing & handover",
+     "Joints are sealed, the area is cleaned and we show you how to use any motorised parts."
+    ]
+   ],
+   "processTitle": "How we build your pergola",
+   "finishes": [
+    [
+     "Aluminium slatted",
+     "Modern, rust-free and almost maintenance-free."
+    ],
+    [
+     "Timber-look composite",
+     "The warm look of wood without the warping or re-varnishing."
+    ],
+    [
+     "Bioclimatic louvred",
+     "Motorised blades that rotate open or shut, with rain drainage built in."
+    ],
+    [
+     "Wooden pergola",
+     "Treated hardwood for a natural, classic finish."
+    ],
+    [
+     "Retractable fabric roof",
+     "Waterproof fabric that slides open or closed."
+    ],
+    [
+     "Car park pergola",
+     "Shade structures for driveways and parking."
+    ]
+   ],
+   "finishesTitle": "Pergola styles we install",
+   "faq": [
+    [
+     "Will the pergola survive UAE summers?",
+     "Yes. We use powder-coated aluminium and UV-stable composite that do not rust, warp or fade in the heat."
+    ],
+    [
+     "Can you install on a rooftop without drilling the waterproofing?",
+     "Yes. We use weighted or plinth-mounted bases and seal every fixing so the roof stays watertight."
+    ],
+    [
+     "Can it have lights and fans?",
+     "Yes. LED strips, spotlights, ceiling fans and misting systems can all be built in."
+    ],
+    [
+     "Do I need approval?",
+     "Many communities require it. We prepare the drawings for you."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/pergola-sunset.jpg",
+   "photoAlt": "NAVA INTERIOR team installing aluminium and timber-look pergolas on a Dubai rooftop terrace at sunset",
+   "photo2": "img/pergola-day-team.jpg",
+   "photo2Alt": "NAVA INTERIOR carpenters fixing pergola slats and anchoring posts on a villa terrace",
+   "time": "3–7 days"
+  },
+  {
+   "id": "pool-maintenance-and-repair",
+   "name": "Pool maintenance & cleaning",
+   "cat": "Technical",
+   "short": "Pump and filter repair, leak detection, retiling and weekly cleaning.",
+   "intro": "Keep your pool clean, safe and working. We provide weekly cleaning and chemical balancing, repair pumps, filters and lights, find leaks, and retile pools.",
+   "includes": [
+    "Weekly cleaning visits",
+    "Water testing and chemicals",
+    "Pump and filter repair",
+    "Pool light replacement",
+    "Leak detection",
+    "Retiling and grouting"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How often should a pool be serviced?",
+     "Weekly in summer and every 1–2 weeks in winter."
+    ],
+    [
+     "My pool is losing water. Is it a leak?",
+     "Evaporation is high in the UAE. We do a bucket test and pressure test to confirm a leak."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/pool-day-villa.jpg",
+   "photoAlt": "Clean, clear villa swimming pool with mosaic tiles and travertine deck",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 hours"
+  },
+  {
+   "id": "quartz-and-granite-worktops",
+   "name": "Quartz & granite worktops",
+   "cat": "Renovation",
+   "short": "Measured, fabricated and installed kitchen and vanity worktops.",
+   "intro": "Beautiful, hard-wearing worktops for kitchens, vanities and bars. We template on site, fabricate quartz, granite or marble to fit exactly, and install with cut-outs for sinks and hobs.",
+   "includes": [
+    "On-site templating",
+    "Quartz, granite and marble",
+    "Sink and hob cut-outs",
+    "Edge profiles",
+    "Splashbacks",
+    "Sealing and installation"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Quartz or granite?",
+     "Quartz needs no sealing and resists stains. Granite is natural stone with unique patterns."
+    ],
+    [
+     "How long does it take?",
+     "About 1–2 weeks from templating to installation."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Quartz & granite worktops",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 weeks"
+  },
+  {
+   "id": "satellite-and-tv-antenna",
+   "name": "Satellite & TV antenna",
+   "cat": "Technical",
+   "short": "Dish installation, alignment and receiver setup.",
+   "intro": "Clear TV reception again. We install and align satellite dishes for Arabic, Asian and international channels, set up receivers and fix signal problems.",
+   "includes": [
+    "Dish installation",
+    "Accurate dish alignment",
+    "Receiver and LNB setup",
+    "Cable runs and splitters",
+    "Channel scanning",
+    "Signal fault repair"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can I watch channels from my home country?",
+     "Yes. We align the dish to the right satellite for your channels."
+    ],
+    [
+     "Do I need permission for a dish on my building?",
+     "Some buildings require it. We advise and use approved locations."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Satellite & TV antenna",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 hours"
+  },
+  {
+   "id": "smart-locks-and-access-control",
+   "name": "Smart locks & access control",
+   "cat": "Technical",
+   "short": "Smart door locks, keypads and access control for homes and offices.",
+   "intro": "Keyless entry for homes and offices. We install smart locks, keypad locks, fingerprint locks and access control systems, set up the app and codes, and make sure the door closes perfectly.",
+   "includes": [
+    "Smart and fingerprint locks",
+    "Keypad and card access",
+    "App and code setup",
+    "Door adjustment",
+    "Office access control",
+    "Video intercom integration"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "What if the battery runs out?",
+     "The lock warns you weeks before, and most have a backup key or USB power."
+    ],
+    [
+     "Will a smart lock fit my door?",
+     "Most doors yes. We check thickness and lock type before ordering."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Smart locks & access control",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "60–90 min"
+  },
+  {
+   "id": "upvc-and-aluminium-windows",
+   "name": "UPVC & aluminium windows",
+   "cat": "Renovation",
+   "short": "Window and sliding door supply, replacement and seal repair.",
+   "intro": "Keep heat, dust and noise out. We supply and install UPVC and aluminium windows and sliding doors, replace seals and rollers, and fix windows that leak or won't close.",
+   "includes": [
+    "Window and door measurement",
+    "UPVC and aluminium systems",
+    "Double glazing",
+    "Seal and gasket replacement",
+    "Roller and lock repair",
+    "Leak sealing"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do new windows reduce AC bills?",
+     "Yes. Double-glazed, well-sealed windows keep cool air in."
+    ],
+    [
+     "My sliding door is hard to open. Can you fix it?",
+     "Usually the rollers are worn. Replacing them makes it slide smoothly again."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "UPVC & aluminium windows",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–5 days"
+  },
+  {
+   "id": "villa-extensions",
+   "name": "Villa extensions",
+   "cat": "Renovation",
+   "short": "Room extensions, maid's rooms and roof additions with approvals handled.",
+   "intro": "More space without moving. We design and build room extensions, maid's rooms, roof rooms and annexes, and handle drawings and approvals with the community and authorities.",
+   "includes": [
+    "Feasibility and design",
+    "Drawings and approvals",
+    "Foundations and structure",
+    "Blockwork and roofing",
+    "MEP connections",
+    "Finishing and handover"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do I need approval for an extension?",
+     "Yes. We prepare the drawings and manage approvals for you."
+    ],
+    [
+     "How long does an extension take?",
+     "Usually 4–12 weeks after approvals, depending on size."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Villa extensions",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "4–12 weeks"
+  },
+  {
+   "id": "wallpaper-installation",
+   "name": "Wallpaper installation",
+   "cat": "Renovation",
+   "short": "Wallpaper hanging and removal, priced per m².",
+   "intro": "Wallpaper hung perfectly with matched patterns and no bubbles. We prepare and prime the walls, hang vinyl, fabric and mural wallpaper, and remove old wallpaper cleanly.",
+   "includes": [
+    "Wall preparation and primer",
+    "Pattern matching",
+    "Vinyl and fabric wallpaper",
+    "Photo murals",
+    "Old wallpaper removal",
+    "Clean seams and edges"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can wallpaper go in bathrooms?",
+     "Yes, if it is vinyl or moisture-resistant and the room is ventilated."
+    ],
+    [
+     "Can I supply my own wallpaper?",
+     "Yes. Tell us the roll size and we will confirm how many you need."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Wallpaper installation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1 day"
+  },
+  {
+   "id": "water-tank-cleaning",
+   "name": "Water tank cleaning",
+   "cat": "Technical",
+   "short": "Tank draining, cleaning and disinfection with a certificate.",
+   "intro": "Clean, safe water for your family. We drain the tank, remove sludge and sediment, scrub and disinfect the walls, and refill, following Dubai Municipality guidelines, with a cleaning certificate.",
+   "includes": [
+    "Tank draining",
+    "Sludge and sediment removal",
+    "Wall scrubbing",
+    "Disinfection",
+    "Refill and testing",
+    "Cleaning certificate"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How often should a tank be cleaned?",
+     "At least once a year, and every 6 months for villas and buildings."
+    ],
+    [
+     "Will I be without water for long?",
+     "Usually 2–4 hours. We schedule it at a convenient time."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Water tank cleaning",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–4 hours"
+  },
+  {
+   "id": "waterproofing",
+   "name": "Waterproofing solutions",
+   "cat": "Renovation",
+   "short": "Roof, bathroom, basement, balcony, tank and pool waterproofing with certified membranes and coatings.",
+   "intro": "Water damage is one of the most expensive problems in UAE buildings: ceiling stains, peeling paint, mould, rusting steel and cracked concrete. NAVA INTERIOR provides complete waterproofing for villas, apartments and commercial buildings, from leak investigation to a fully tested, long-life system. We use certified membranes and coatings from leading manufacturers such as Sika, Fosroc, Henkel (Polybit) and Mapei, chosen for the surface, the exposure and the UAE climate of extreme heat, UV and humidity.",
+   "includes": [
+    "Leak investigation with moisture meters",
+    "Surface preparation and crack repair",
+    "Primer and bonding coats",
+    "Membranes and liquid coatings",
+    "Reinforcement at joints and corners",
+    "24–48 hour flood testing",
+    "Protective screed or top coat",
+    "Written warranty on the system"
+   ],
+   "process": [
+    [
+     "Leak investigation",
+     "We trace the real source of the water with moisture meters and visual inspection, not guesswork."
+    ],
+    [
+     "System selection",
+     "We recommend the right system for the surface and exposure and explain the options in writing."
+    ],
+    [
+     "Surface preparation",
+     "Old coatings are removed, cracks are repaired and the surface is cleaned and primed for full bonding."
+    ],
+    [
+     "Application",
+     "Membranes or coatings are applied to the specified thickness, with extra reinforcement at corners, drains and joints."
+    ],
+    [
+     "Flood test",
+     "The area is flooded for 24–48 hours to prove it is watertight before any tiles or screed go on."
+    ],
+    [
+     "Protection & handover",
+     "A protective layer is added and you receive photos, test results and the warranty."
+    ]
+   ],
+   "processTitle": "Our waterproofing process",
+   "finishes": [
+    [
+     "Bituminous torch-on membrane",
+     "Proven, heavy-duty sheet membrane for flat concrete roofs and foundations."
+    ],
+    [
+     "Polyurethane (PU) liquid membrane",
+     "Seamless, elastic and UV-resistant. Ideal for exposed roofs, balconies and complex shapes."
+    ],
+    [
+     "Cementitious coating",
+     "Strong, breathable coating for bathrooms, kitchens, basements and water tanks."
+    ],
+    [
+     "Acrylic elastomeric coating",
+     "Reflective white roof coating that also lowers roof temperature and AC load."
+    ],
+    [
+     "Epoxy & potable-safe coating",
+     "Food-grade lining approved for drinking-water tanks."
+    ],
+    [
+     "PU crack injection",
+     "Expanding resin injected into active leaks and cracks in concrete walls and slabs."
+    ]
+   ],
+   "finishesTitle": "Waterproofing systems we install",
+   "faq": [
+    [
+     "How do I know where the leak is coming from?",
+     "We investigate before quoting, using moisture meters and inspection of the roof, bathrooms and pipes above the damaged area."
+    ],
+    [
+     "How long does waterproofing last?",
+     "Depending on the system, 10–15 years for membranes and 5–10 years for exposed coatings when installed correctly."
+    ],
+    [
+     "Do you need to remove my tiles?",
+     "For bathrooms and balconies, usually yes, to waterproof properly underneath. For some leaks, injection works without removing tiles."
+    ],
+    [
+     "Can you waterproof in summer?",
+     "Yes. We schedule exposed roof work in the early morning and evening to protect the materials and the team."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/wp-nava-roof-roller.jpg",
+   "photoAlt": "NAVA INTERIOR team sealing a villa roof with a white liquid waterproofing membrane",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 days"
+  },
+  {
+   "id": "window-and-door-repair",
+   "name": "Window & door repair",
+   "cat": "Technical",
+   "short": "Sliding door rollers, window locks, seals and handles.",
+   "intro": "Fix sliding doors that stick, windows that won't lock and doors that let in dust. We replace rollers, locks, handles and seals for aluminium, UPVC and wooden windows and doors.",
+   "includes": [
+    "Sliding door rollers",
+    "Window locks and handles",
+    "Rubber seals and brushes",
+    "Door closers",
+    "Alignment and adjustment",
+    "Mosquito nets"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you fix balcony sliding doors?",
+     "Yes. This is one of our most common jobs and is usually finished in one visit."
+    ],
+    [
+     "Do you supply the parts?",
+     "Yes. We carry common rollers, locks and seals in the van."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Window & door repair",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "60–90 min"
+  },
+  {
+   "id": "yard-and-garden-maintenance",
+   "name": "Yard & garden maintenance",
+   "cat": "Technical",
+   "short": "Lawn care, trimming, irrigation checks and seasonal planting.",
+   "intro": "Keep your garden neat all year. Regular visits for lawn mowing, hedge trimming, weeding, fertilising and irrigation checks, with seasonal planting.",
+   "includes": [
+    "Lawn mowing and edging",
+    "Hedge and tree trimming",
+    "Weeding and clean-up",
+    "Fertilising",
+    "Irrigation checks",
+    "Seasonal planting"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How often should my garden be maintained?",
+     "Weekly or every two weeks, depending on the size and planting."
+    ],
+    [
+     "Do you remove the green waste?",
+     "Yes. We take away all cuttings after each visit."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Yard & garden maintenance",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "Per visit"
+  },
+  {
+   "id": "apartment-painting",
+   "name": "Apartment painting",
+   "cat": "Renovation",
+   "short": "Studio to 3-bed repaints, ceilings included. Move-in and move-out repaints that pass landlord checks.",
+   "intro": "Fast, clean repaints for apartments in towers across Dubai, Abu Dhabi, Sharjah and Ajman. We work around building rules, book the service lift, protect corridors and floors, and leave the apartment ready to live in the same evening. Ceilings are rolled in bright white with a stain-blocking coat where there are old AC or water marks.",
+   "includes": [
+    "Crack and nail-hole filling",
+    "Stain-block primer on marks",
+    "Ceilings in brilliant white",
+    "Two coats washable emulsion",
+    "Doors and skirting touch-up",
+    "Floor and furniture protection",
+    "Building permit and lift booking",
+    "Final clean before handover"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can I stay in the apartment while you paint?",
+     "Yes. We paint room by room and use low-odour paint, so most families stay at home."
+    ],
+    [
+     "Do you handle the building NOC?",
+     "Yes. We send our trade licence and insurance to building management and book the service lift for you."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/paint-apartment-marina.jpg",
+   "photoAlt": "NAVA INTERIOR painter rolling a fresh coat on a Dubai Marina apartment wall overlooking the sea",
+   "photo2": "img/paint-bedroom-jotun.jpg",
+   "photo2Alt": "NAVA INTERIOR painter rolling a bedroom wall with Jotun paint, floor and furniture protected",
+   "time": "1–3 days"
+  },
+  {
+   "id": "villa-painting",
+   "name": "Villa painting",
+   "cat": "Renovation",
+   "short": "Full interior and exterior villa painting, feature walls, high ceilings and stairwells.",
+   "intro": "Villa painting needs more planning: double-height ceilings, stairwells, feature walls and exterior walls that face the UAE sun all day. A dedicated team lead runs the job, all furniture is wrapped and floors are sheeted, and exteriors get heat- and UV-resistant paint made for desert conditions.",
+   "includes": [
+    "Colour consultation and samples",
+    "Furniture wrapping and floor sheeting",
+    "Crack and nail-hole filling",
+    "Feature and accent walls",
+    "Scaffold for high ceilings and stairwells",
+    "Heat-resistant exterior paint",
+    "Gates, railings and boundary walls",
+    "Daily clean-up"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Which paint do you use outside?",
+     "Exterior-grade acrylic with UV and heat resistance from Jotun or National Paints, suited to UAE summers."
+    ],
+    [
+     "Can you match a colour from a photo?",
+     "Yes. We bring a colour fan deck and paint test patches on your wall before the full job starts."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/paint-villa-team-evening.jpg",
+   "photoAlt": "NAVA INTERIOR team repainting a villa interior with furniture wrapped",
+   "photo2": "img/paint-villa-interior-nava.jpg",
+   "photo2Alt": "NAVA INTERIOR painter on a double-height villa wall",
+   "time": "3–7 days"
+  },
+  {
+   "id": "office-painting",
+   "name": "Office painting",
+   "cat": "Renovation",
+   "short": "Offices, shops, clinics and showrooms painted at night or on weekends with no downtime.",
+   "intro": "Commercial painting planned around your business hours. We work at night or on weekends so your team and customers are not disturbed. Two-tone walls, brand colours, low-VOC paint and hard-wearing washable finishes for corridors and high-traffic areas.",
+   "includes": [
+    "Night and weekend shifts",
+    "Low-VOC, low-odour paint",
+    "Brand colour matching",
+    "Two-tone and dado lines",
+    "Scuff-resistant washable finish",
+    "Desk and IT equipment covering",
+    "Mall and building permits",
+    "Handover with snag list"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Will my office have to close?",
+     "No. We work after hours and clean up before your team arrives in the morning."
+    ],
+    [
+     "Can you paint our brand colours?",
+     "Yes. Send your brand colour codes and we will mix and test them on site first."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/paint-villa-finishing-check.jpg",
+   "photoAlt": "NAVA INTERIOR team finishing freshly painted walls and checking the result before handover",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "Overnight or weekends"
+  },
+  {
+   "id": "furniture-assembly",
+   "name": "Furniture assembly",
+   "cat": "Technical",
+   "short": "IKEA, Home Centre and flat-pack furniture assembled, levelled and anchored to the wall.",
+   "intro": "Moving in or refreshing a room? Our carpenters assemble wardrobes, beds, desks and storage units from IKEA, Home Centre, Pan Emirates and online stores. Every tall unit is levelled and anchored to the wall for safety, and we take the packaging away when we leave.",
+   "includes": [
+    "Unboxing and parts check",
+    "Assembly to manufacturer spec",
+    "Levelling on uneven floors",
+    "Anti-tip wall anchoring",
+    "Door and drawer alignment",
+    "Packaging removal"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do you bring your own tools?",
+     "Yes. Cordless drills, levels and wall anchors for concrete, block and gypsum are on every van."
+    ],
+    [
+     "Can you take apart and move furniture?",
+     "Yes. We dismantle, move within the same building and reassemble."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/carpentry-wardrobe-assembly.jpg",
+   "photoAlt": "NAVA INTERIOR technician assembling a white wardrobe frame with a cordless drill",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–4 hours"
+  },
+  {
+   "id": "floating-shelves",
+   "name": "Floating shelves installation",
+   "cat": "Technical",
+   "short": "Bracket and concealed floating shelves fitted level and secure on any wall.",
+   "intro": "Wooden and floating shelves installed perfectly level, with the right fixings for your wall: heavy-duty anchors for block and concrete, and backing or toggle bolts for gypsum. Concealed-bracket shelves give a clean floating look for living rooms, kitchens and bathrooms.",
+   "includes": [
+    "Wall type check and pipe/cable scan",
+    "Laser levelling",
+    "Heavy-duty anchors",
+    "Concealed or visible brackets",
+    "Shelf supply on request",
+    "Dust-free clean-up"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How much weight can a floating shelf hold?",
+     "On block or concrete, about 15–25 kg per shelf depending on its depth. We advise the right shelf for books or decor."
+    ],
+    [
+     "Can you hide the screws?",
+     "Yes. Concealed brackets sit inside the shelf so nothing shows."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/carpentry-floating-shelves-oak.jpg",
+   "photoAlt": "Two solid oak shelves on black steel brackets fixed to a wall",
+   "photo2": "img/carpentry-floating-shelves-white.jpg",
+   "photo2Alt": "White floating shelves with concealed steel brackets",
+   "time": "30–90 min"
+  },
+  {
+   "id": "solar-water-heaters",
+   "name": "Solar water heater installation",
+   "cat": "Technical",
+   "short": "Flat-plate solar water heaters for villas, with roof stands, insulated pipework and electric backup.",
+   "intro": "Free hot water from the UAE sun. We supply and install flat-plate solar water heater systems on villa roofs, angled for the best sun, on galvanised stands fixed to concrete blocks so the waterproofing is not damaged. Pipework is fully insulated, and every tank has an electric backup element for cloudy or high-demand days. Solar heaters are required on many new villas under Dubai green building regulations.",
+   "includes": [
+    "Roof survey and sizing",
+    "Flat-plate collector and storage tank",
+    "Galvanised stand on concrete blocks",
+    "Insulated hot and cold pipework",
+    "Electric backup element",
+    "Pressure and leak test",
+    "Commissioning and handover",
+    "Annual service option"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Does it work in winter?",
+     "Yes. UAE winters are sunny, and the electric backup heats the water on the few cloudy days."
+    ],
+    [
+     "Will it damage my roof waterproofing?",
+     "No. The stand sits on concrete blocks, so nothing is drilled through the roof membrane."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/solar-heater-villa-roof.jpg",
+   "photoAlt": "Two flat-plate solar water heaters with white storage tanks on a new villa rooftop",
+   "photo2": "img/solar-heater-rooftop-team.jpg",
+   "photo2Alt": "NAVA INTERIOR technicians in hi-vis vests installing a solar water heater panel on a roof",
+   "time": "1 day"
+  },
+  {
+   "id": "chandelier-installation",
+   "name": "Chandelier & light installation",
+   "cat": "Technical",
+   "short": "Chandeliers, LED ring pendants and ceiling lights hung safely, levelled and wired to switch or remote.",
+   "intro": "From crystal chandeliers in double-height villa halls to modern LED ring pendants in apartments. Our electricians check the ceiling can take the weight, fit a proper hook or support plate into the slab or gypsum frame, set each suspension cable to the right height so the rings hang perfectly level, and wire it to your switch, dimmer or remote. Old fittings are removed and the ceiling is patched.",
+   "includes": [
+    "Ceiling and weight check",
+    "Support hook or plate into slab",
+    "Assembly of chandelier parts",
+    "Suspension height and levelling",
+    "Wiring to switch, dimmer or remote",
+    "Old fitting removal",
+    "Ceiling patch and touch-up",
+    "Ladder or scaffold for high ceilings"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can my gypsum ceiling hold a chandelier?",
+     "Light pendants, yes. Heavier chandeliers are fixed through the gypsum into the concrete slab or onto a steel support, so the board never carries the weight."
+    ],
+    [
+     "Do you assemble the chandelier too?",
+     "Yes. We unbox, assemble, hang and level it, and take the packaging away."
+    ],
+    [
+     "Can you install very high chandeliers?",
+     "Yes. We bring a tower scaffold for double-height villa ceilings and stairwells."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/chandelier-crystal-villa.jpg",
+   "photoAlt": "Two NAVA INTERIOR technicians installing a large crystal chandelier in a double-height Dubai villa",
+   "photo2": "img/light-ring-chandelier.jpg",
+   "photo2Alt": "Three-ring modern LED chandelier hanging from a living room ceiling",
+   "time": "1–3 hours"
+  },
+  {
+   "id": "exterior-painting",
+   "name": "Exterior painting",
+   "cat": "Renovation",
+   "short": "Villa and building exteriors, boundary walls and gates in heat- and UV-resistant paint.",
+   "intro": "UAE sun, sand and humidity are hard on outside walls. We pressure-wash, repair cracks, apply a sealer and finish with exterior weathershield paint that resists fading, dust and heat, using safe scaffolding for upper floors.",
+   "includes": [
+    "Pressure washing",
+    "Crack and plaster repair",
+    "Alkali-resistant sealer",
+    "Two coats exterior weathershield",
+    "Boundary walls and gates",
+    "Scaffolding and safety barriers"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long does exterior paint last?",
+     "Quality weathershield paint lasts 5–7 years in the UAE climate."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/paint-villa-exterior-sand.jpg",
+   "photoAlt": "Two NAVA INTERIOR painters rolling sand-coloured weathershield paint on a villa exterior",
+   "photo2": "img/paint-exterior-soffit-sunset.jpg",
+   "photo2Alt": "NAVA INTERIOR painter rolling a villa soffit at sunset, paving protected with sheeting",
+   "time": "3–10 days"
+  },
+  {
+   "id": "texture-painting",
+   "name": "Texture & decorative painting",
+   "cat": "Renovation",
+   "short": "Stucco, sand texture, metallic and designer finishes for feature walls.",
+   "intro": "Make one wall the centre of the room with a decorative finish: Venetian stucco, sand or stone texture, metallic effects, concrete look or two-tone geometric designs. We show you samples first so you know exactly how it will look.",
+   "includes": [
+    "Finish samples before work",
+    "Venetian stucco and polished plaster",
+    "Sand and stone textures",
+    "Metallic and concrete-look effects",
+    "Geometric and two-tone designs",
+    "Protective top coat"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can texture be painted over later?",
+     "Yes, most textures can be painted over or skimmed smooth."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Texture & decorative painting",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 days"
+  },
+  {
+   "id": "wood-polishing",
+   "name": "Wood polishing & lacquer",
+   "cat": "Renovation",
+   "short": "Doors, wardrobes, kitchen cabinets and wooden furniture sanded, stained and lacquered.",
+   "intro": "Bring tired wood back to life. We sand doors, frames, wardrobes, cabinets and furniture, then stain and seal with PU lacquer or duco paint for a smooth, hard-wearing finish.",
+   "includes": [
+    "Sanding and filling",
+    "Wood stain colour matching",
+    "PU lacquer: matt, satin or gloss",
+    "Duco spray painting",
+    "Doors, frames and cabinets",
+    "Dust-controlled work"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you change the wood colour?",
+     "Yes. We sand back and stain to a new shade before lacquering."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Wood polishing & lacquer",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 days"
+  },
+  {
+   "id": "metal-painting",
+   "name": "Gate, railing & metal painting",
+   "cat": "Renovation",
+   "short": "Rust removal and anti-rust enamel for gates, railings, grills and pergolas.",
+   "intro": "Rust spreads fast in coastal UAE air. We scrape and sand off rust, apply an anti-rust primer and finish with tough enamel paint for gates, balcony railings, window grills, staircases and metal pergolas.",
+   "includes": [
+    "Rust removal and sanding",
+    "Anti-rust primer",
+    "Two coats enamel paint",
+    "Gates, railings and grills",
+    "Spray or brush finish",
+    "Surrounding area protection"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How long until rust comes back?",
+     "With proper rust removal and anti-rust primer, typically several years."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Gate, railing & metal painting",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "roof-waterproofing",
+   "name": "Roof waterproofing",
+   "cat": "Renovation",
+   "short": "Flat concrete roofs sealed with torch-on, PU or reflective coatings, flood-tested.",
+   "intro": "The roof takes the full force of UAE sun, rain and temperature swings. We remove failed layers, repair cracks, form fillets at upstands, then apply a bituminous membrane, PU liquid membrane or reflective acrylic coating, finished with protection and a flood test.",
+   "includes": [
+    "Roof survey and moisture check",
+    "Removal of failed layers",
+    "Crack and fillet repair",
+    "Membrane or liquid system",
+    "Drain and upstand detailing",
+    "Flood test and protection screed"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can I walk on the roof after?",
+     "Yes, once the protection layer or top coat has cured."
+    ],
+    [
+     "Does a white coating reduce heat?",
+     "Yes. Reflective coatings can lower the roof surface temperature significantly and reduce AC load."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/wp-nava-roof-roller.jpg",
+   "photoAlt": "NAVA INTERIOR applicator rolling a white reflective waterproof coating across a Dubai villa roof",
+   "photo2": "img/wp-nava-roof-detail.jpg",
+   "photo2Alt": "NAVA INTERIOR applicator sealing the roof upstand and AC plinth by hand before the main coat",
+   "time": "2–5 days"
+  },
+  {
+   "id": "bathroom-waterproofing",
+   "name": "Bathroom & wet area waterproofing",
+   "cat": "Renovation",
+   "short": "Leak-proof bathrooms, showers and kitchens before tiling, so the neighbour's ceiling stays dry.",
+   "intro": "Most leaks into the flat below come from a bathroom floor or shower. We strip the tiles, seal pipe penetrations and floor drains, apply a cementitious or liquid membrane up the walls, flood-test for 24 hours, then retile.",
+   "includes": [
+    "Tile removal",
+    "Drain and pipe sealing",
+    "Corner reinforcement tape",
+    "Cementitious or liquid membrane",
+    "24-hour flood test",
+    "Retiling and grouting"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Why is my downstairs neighbour's ceiling wet?",
+     "Usually a failed bathroom floor membrane or a leaking drain above. We find and fix the source."
+    ],
+    [
+     "Can I use the bathroom during the work?",
+     "Not for 3–4 days. Many clients use another bathroom while we work."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Bathroom & wet area waterproofing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–4 days"
+  },
+  {
+   "id": "basement-waterproofing",
+   "name": "Basement & foundation waterproofing",
+   "cat": "Renovation",
+   "short": "Dry basements and foundations with membranes, crystalline coatings and injection.",
+   "intro": "High ground water and salty soil attack basements and foundations. We waterproof from the outside with membranes where possible, and from the inside with crystalline and cementitious coatings and PU injection for active leaks.",
+   "includes": [
+    "Leak and damp mapping",
+    "Crack and joint injection",
+    "Crystalline waterproofing",
+    "Cementitious tanking",
+    "External membrane systems",
+    "Drainage advice"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you fix it from inside?",
+     "Yes. Negative-side systems and injection stop water without digging outside."
+    ],
+    [
+     "Is damp in a basement dangerous?",
+     "It causes mould and slowly corrodes steel reinforcement, so it should be treated early."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Basement & foundation waterproofing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "3–10 days"
+  },
+  {
+   "id": "balcony-terrace-waterproofing",
+   "name": "Balcony & terrace waterproofing",
+   "cat": "Renovation",
+   "short": "Balconies, terraces and planters sealed against leaks and efflorescence.",
+   "intro": "Balcony leaks show up as stains and white salt on the ceiling below. We waterproof balconies, terraces and planter boxes with flexible liquid membranes and seal thresholds and drains, with or without retiling.",
+   "includes": [
+    "Threshold and drain sealing",
+    "Liquid PU membrane",
+    "Planter box lining",
+    "Tile or top-coat finish",
+    "Flood test",
+    "Joint sealant renewal"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can it be done without removing tiles?",
+     "Sometimes. Transparent sealers and grout injection work for minor leaks; we will advise after inspection."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Balcony & terrace waterproofing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–4 days"
+  },
+  {
+   "id": "tank-waterproofing",
+   "name": "Water tank waterproofing",
+   "cat": "Renovation",
+   "short": "Concrete and roof tanks lined with potable-safe coatings approved for drinking water.",
+   "intro": "Leaking or dirty concrete tanks waste water and risk contamination. We drain and clean the tank, repair cracks, and line it with a food-grade epoxy or cementitious coating approved for drinking water.",
+   "includes": [
+    "Draining and cleaning",
+    "Crack and joint repair",
+    "Potable-safe lining",
+    "Inlet and outlet sealing",
+    "Curing and disinfection",
+    "Refill and leak test"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Is the coating safe for drinking water?",
+     "Yes. We only use coatings certified for potable water."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Water tank waterproofing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–3 days"
+  },
+  {
+   "id": "pool-waterproofing",
+   "name": "Swimming pool waterproofing",
+   "cat": "Renovation",
+   "short": "New and existing pools sealed before tiling, and leaking pools repaired.",
+   "intro": "A pool must hold water under constant pressure. We waterproof new pool shells before tiling and repair leaking pools by sealing cracks, fittings and joints with flexible cementitious and PU systems.",
+   "includes": [
+    "Pressure and leak testing",
+    "Crack and fitting sealing",
+    "Flexible cementitious membrane",
+    "Reinforcement at joints",
+    "Fill test before tiling",
+    "Retiling and grouting"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How do I know my pool is leaking?",
+     "If it loses more than about 5 cm a week beyond evaporation, we pressure-test the lines and shell."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Swimming pool waterproofing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "5–10 days"
+  },
+  {
+   "id": "crack-leak-injection",
+   "name": "Crack & leak injection",
+   "cat": "Technical",
+   "short": "PU and epoxy injection to stop active leaks through concrete cracks and joints.",
+   "intro": "Water coming through a crack in a wall, slab or basement can often be stopped without breaking anything. We drill injection ports along the crack and inject expanding polyurethane resin or structural epoxy that fills and seals it from the inside.",
+   "includes": [
+    "Crack inspection",
+    "Injection port drilling",
+    "PU resin for active leaks",
+    "Epoxy for structural cracks",
+    "Port removal and patching",
+    "Follow-up check"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Does injection work on wet cracks?",
+     "Yes. PU resin reacts with water and expands to seal active leaks."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Crack & leak injection",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "waterproof-coatings",
+   "name": "Waterproof coatings",
+   "cat": "Renovation",
+   "short": "Acrylic, PU, cementitious and bitumen coatings for roofs, walls and wet areas.",
+   "intro": "Liquid-applied waterproof coatings form a seamless layer with no joints for water to get through. We select acrylic, polyurethane, cementitious or bitumen coatings to suit the surface, apply them in multiple coats to the specified thickness and check the result.",
+   "includes": [
+    "Surface cleaning and primer",
+    "Acrylic elastomeric coatings",
+    "Polyurethane coatings",
+    "Cementitious coatings",
+    "Bitumen coatings",
+    "Thickness checks"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Coating or membrane?",
+     "Coatings suit complex shapes and exposed areas; sheet membranes suit large flat roofs and foundations."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Waterproof coatings",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–4 days"
+  },
+  {
+   "id": "bathtub-to-shower",
+   "name": "Bathtub to shower conversion",
+   "cat": "Renovation",
+   "short": "Replace an old bathtub with a modern walk-in shower and frameless glass.",
+   "intro": "Most people in UAE apartments rarely use the bathtub. We remove it, re-route the drain, build a low or level shower tray with full waterproofing, tile it and fit a frameless glass screen, rain shower and niche, giving you more space and safer access.",
+   "includes": [
+    "Bathtub removal",
+    "Drain re-routing",
+    "Shower tray or level floor",
+    "Waterproofing and flood test",
+    "Wall tiling and niche",
+    "Frameless glass and rain shower"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Is a walk-in shower safer?",
+     "Yes. No tub edge to climb over, which is ideal for children and older family members."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Bathtub to shower conversion",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "4–7 days"
+  },
+  {
+   "id": "bathroom-tiling",
+   "name": "Bathroom tiling",
+   "cat": "Renovation",
+   "short": "Floor and wall tiling, large-format porcelain, mosaics and re-grouting.",
+   "intro": "Precise bathroom tiling with level floors that drain correctly, straight grout lines and clean cuts around fittings. We work with porcelain, ceramic, marble and mosaic, and offer epoxy grout for stain-free, waterproof joints.",
+   "includes": [
+    "Floor falls to the drain",
+    "Large-format porcelain",
+    "Mosaic and feature walls",
+    "Mitred corners and trims",
+    "Epoxy or cement grout",
+    "Silicone at all joints"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "What is epoxy grout?",
+     "A waterproof, stain-resistant grout that does not turn black like cement grout."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/tile-porcelain-bathroom.jpg",
+   "photoAlt": "Large grey porcelain tiles being installed on a bathroom wall",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–5 days"
+  },
+  {
+   "id": "vanity-installation",
+   "name": "Vanity & sink installation",
+   "cat": "Technical",
+   "short": "Floating and floor vanities, basins, mixers and LED mirror cabinets fitted.",
+   "intro": "A new vanity changes the whole bathroom. We fit floating or floor-standing vanities, countertop or under-mount basins, mixers, bottle traps and LED mirror cabinets, levelled and sealed.",
+   "includes": [
+    "Old vanity removal",
+    "Wall fixing and levelling",
+    "Basin and mixer fitting",
+    "Bottle trap and waste",
+    "LED mirror cabinet",
+    "Silicone sealing"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can a floating vanity go on a gypsum wall?",
+     "Yes, with a hidden steel frame or backing board to carry the weight."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Vanity & sink installation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–4 hours"
+  },
+  {
+   "id": "sanitaryware-installation",
+   "name": "Sanitaryware installation",
+   "cat": "Technical",
+   "short": "WCs, concealed cisterns, bidets, basins, showers and mixers installed.",
+   "intro": "Correctly installed sanitaryware lasts for years without leaks. Our plumbers fit wall-hung and floor WCs, concealed cisterns, bidet sprays, basins, shower systems and thermostatic mixers from all major brands.",
+   "includes": [
+    "Wall-hung and floor WCs",
+    "Concealed cistern frames",
+    "Bidet sprays (shattaf)",
+    "Basins and mixers",
+    "Rain and hand showers",
+    "Leak test on every joint"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Which brands do you install?",
+     "Grohe, Hansgrohe, Geberit, Duravit, Roca, Ideal Standard, RAK Ceramics and others."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Sanitaryware installation",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–6 hours"
+  },
+  {
+   "id": "shower-glass-enclosures",
+   "name": "Shower glass enclosures",
+   "cat": "Technical",
+   "short": "Frameless and semi-frameless shower screens in tempered safety glass.",
+   "intro": "Made-to-measure shower enclosures that keep water in and make the bathroom feel larger. We measure on site and install frameless, semi-frameless, sliding and walk-in screens in 8–10 mm tempered glass with your choice of hardware finish.",
+   "includes": [
+    "On-site measurement",
+    "Tempered safety glass",
+    "Hinged, sliding or fixed panels",
+    "Chrome, black or gold hardware",
+    "Water seals and sweeps",
+    "Anti-limescale coating option"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "How do I stop limescale on the glass?",
+     "Ask for the anti-limescale coating and squeegee after each shower."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Shower glass enclosures",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "3–5 days"
+  },
+  {
+   "id": "bathroom-refresh",
+   "name": "Bathroom refresh",
+   "cat": "Technical",
+   "short": "Fast makeover without full renovation: re-grout, re-silicone, new fittings and paint.",
+   "intro": "Not ready for a full renovation? A refresh makes a tired bathroom look clean and new in one or two days. We deep-clean and re-grout tiles, renew all silicone, replace the mixer, shower head and accessories, and repaint the ceiling with anti-mould paint.",
+   "includes": [
+    "Tile deep clean and re-grout",
+    "Full silicone renewal",
+    "New mixer and shower set",
+    "New accessories",
+    "Anti-mould ceiling paint",
+    "Exhaust fan check"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Will a refresh stop black mould?",
+     "Yes, for surface mould. We also check the exhaust fan, as poor ventilation is the usual cause."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Bathroom refresh",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–2 days"
+  },
+  {
+   "id": "pool-construction",
+   "name": "Swimming pool construction",
+   "cat": "Renovation",
+   "short": "Custom concrete swimming pools for villas, rooftops and gardens: design, approvals, build and handover.",
+   "intro": "A private pool built around your home and the way your family uses it. NAVA INTERIOR designs and builds reinforced concrete swimming pools for villas, gardens and rooftops across Dubai, Abu Dhabi, Sharjah and Ajman. We handle the design, structural drawings, community and municipality approvals, excavation, steel and concrete, waterproofing, plumbing and filtration, tiling, lighting and the surrounding deck, so you deal with one team from first sketch to first swim.",
+   "includes": [
+    "Site survey and 3D pool design",
+    "Structural drawings and approvals",
+    "Excavation and soil removal",
+    "Reinforced concrete shell",
+    "Full waterproofing and fill test",
+    "Pump, filter and plumbing system",
+    "Mosaic or porcelain tiling",
+    "LED pool lighting",
+    "Coping and pool deck",
+    "Water balancing and handover training"
+   ],
+   "process": [
+    [
+     "Design & approvals",
+     "We survey the site, design the pool in 3D, prepare structural drawings and obtain community and authority approvals."
+    ],
+    [
+     "Excavation & structure",
+     "The area is excavated, steel reinforcement is fixed and the concrete shell is poured and cured."
+    ],
+    [
+     "Waterproofing & plumbing",
+     "The shell is waterproofed and fill-tested, and all pipework, skimmers, inlets and drains are installed and pressure-tested."
+    ],
+    [
+     "Tiling & equipment",
+     "Mosaic or porcelain tiles, coping, lighting, pump, filter and controls are installed."
+    ],
+    [
+     "Deck & landscaping",
+     "The pool deck, paving and surrounding garden are completed."
+    ],
+    [
+     "Commissioning & handover",
+     "The pool is filled, the water is balanced and we show you how to run and look after it."
+    ]
+   ],
+   "processTitle": "How we build your pool",
+   "finishes": [
+    [
+     "Skimmer pool",
+     "The classic villa pool, with the water level just below the coping and skimmers in the wall."
+    ],
+    [
+     "Overflow pool",
+     "Water flows over the edge into a hidden channel, giving a flat, mirror-like surface."
+    ],
+    [
+     "Infinity pool",
+     "One edge disappears into the view. Ideal for rooftops and elevated gardens."
+    ],
+    [
+     "Plunge & lap pool",
+     "Compact pools for small gardens and narrow plots, or long lanes for swimming."
+    ],
+    [
+     "Jacuzzi & spa",
+     "Built-in heated spa with massage jets, on its own or attached to the main pool."
+    ],
+    [
+     "Kids' & shallow pools",
+     "Safe shallow areas, sun shelves and steps for children and relaxing."
+    ]
+   ],
+   "finishesTitle": "Pool types we build",
+   "faq": [
+    [
+     "How long does it take to build a pool?",
+     "Usually 6–12 weeks after approvals, depending on size, design and site access."
+    ],
+    [
+     "Do I need approval to build a pool?",
+     "Yes. Most communities and the municipality require approval. We prepare the drawings and manage the process."
+    ],
+    [
+     "Can you build a pool on a rooftop?",
+     "Yes, after a structural engineer confirms the roof can carry the load. We coordinate the assessment."
+    ],
+    [
+     "Can the pool be cooled in summer?",
+     "Yes. We can add a pool chiller so the water stays comfortable even in July and August."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/pool-team-tiling.jpg",
+   "photoAlt": "NAVA INTERIOR pool team tiling a new villa swimming pool with blue glass mosaic",
+   "photo2": "img/pool-day-villa.jpg",
+   "photo2Alt": "Finished villa swimming pool with mosaic tiles, travertine deck and Dubai skyline",
+   "time": "6–12 weeks"
+  },
+  {
+   "id": "pool-renovation",
+   "name": "Pool renovation & retiling",
+   "cat": "Renovation",
+   "short": "Old or leaking pools rebuilt with new waterproofing, tiles, coping, lighting and equipment.",
+   "intro": "Give an old pool a new life. We drain the pool, remove loose or cracked tiles and old render, repair the shell, apply new waterproofing, retile in mosaic or porcelain, replace coping, upgrade lighting to LED and renew pumps and filters, so it looks and works like new.",
+   "includes": [
+    "Pool draining and inspection",
+    "Tile and render removal",
+    "Crack and shell repair",
+    "New waterproofing and fill test",
+    "Mosaic or porcelain retiling",
+    "New coping stones",
+    "LED lighting upgrade",
+    "Pump and filter replacement"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you change the pool shape or depth?",
+     "Often yes, for example adding steps, a sun shelf or a shallow area. We advise after inspection."
+    ],
+    [
+     "How often should a pool be retiled?",
+     "Usually every 10–15 years, or sooner if tiles are cracking or falling off."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/pool-mosaic-tiler.jpg",
+   "photoAlt": "NAVA INTERIOR tiler laying blue mosaic sheets on a pool shell",
+   "photo2": "img/pool-team-tiling.jpg",
+   "photo2Alt": "Pool team retiling walls and floor with glass mosaic",
+   "time": "2–5 weeks"
+  },
+  {
+   "id": "pool-equipment",
+   "name": "Pool pumps, filters & equipment",
+   "cat": "Technical",
+   "short": "Pumps, sand and cartridge filters, chlorinators, chillers and automation installed and repaired.",
+   "intro": "Clean, clear water depends on the equipment room. We repair and replace pool pumps, sand and cartridge filters, salt chlorinators, dosing systems, heat pumps and chillers, and install automation so you can control the pump, lights and temperature from your phone.",
+   "includes": [
+    "Pump repair and replacement",
+    "Sand and cartridge filters",
+    "Salt chlorinators",
+    "Automatic chemical dosing",
+    "Pool chillers and heat pumps",
+    "Smart pool automation"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Do I need a pool chiller in Dubai?",
+     "In summer pool water can pass 35°C. A chiller keeps it refreshing and also helps control algae."
+    ],
+    [
+     "Is a salt chlorinator better?",
+     "It makes chlorine automatically from salt, so water is softer and you buy fewer chemicals."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Pool pumps, filters & equipment",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "2–6 hours"
+  },
+  {
+   "id": "pool-lighting",
+   "name": "Pool lighting & water features",
+   "cat": "Technical",
+   "short": "LED pool lights, colour-changing systems, waterfalls, fountains and jets.",
+   "intro": "Make your pool beautiful at night. We install and replace underwater LED lights, colour-changing systems with app control, and water features such as waterfalls, sheer descents, deck jets and fountains, all wired safely to low-voltage transformers.",
+   "includes": [
+    "Underwater LED lights",
+    "Colour-changing and app control",
+    "Low-voltage safety transformers",
+    "Waterfalls and sheer descents",
+    "Deck jets and fountains",
+    "Garden and deck lighting"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Can you change the lights without draining the pool?",
+     "Usually yes. Most modern pool lights can be replaced with the pool full."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/pool-night-villa.jpg",
+   "photoAlt": "Villa swimming pool lit with underwater LED lights at night, Burj Khalifa in the background",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 days"
+  },
+  {
+   "id": "pool-deck-coping",
+   "name": "Pool deck, coping & paving",
+   "cat": "Renovation",
+   "short": "Cool-touch stone, porcelain and timber-look decks around pools, with matching coping.",
+   "intro": "The area around the pool matters as much as the water. We install heat-reflective, anti-slip pool decks in natural stone, porcelain or composite timber, with matching coping stones, drainage channels and step lighting, designed to stay cool underfoot in the UAE sun.",
+   "includes": [
+    "Cool-touch natural stone",
+    "Anti-slip porcelain paving",
+    "Composite timber decking",
+    "Bullnose coping stones",
+    "Drainage channels",
+    "Step and deck lighting"
+   ],
+   "process": [
+    [
+     "Site visit",
+     "Free visit to measure, understand your needs and advise on options."
+    ],
+    [
+     "Design & quote",
+     "You get a written scope, timeline and quote, with samples or 3D where useful."
+    ],
+    [
+     "Approvals & prep",
+     "We handle building NOCs, protect your home and prepare the site."
+    ],
+    [
+     "Build",
+     "A dedicated supervisor manages the work and keeps you updated on WhatsApp."
+    ],
+    [
+     "Handover",
+     "Final walk-through, snag list fixed, clean-up and warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Which deck stays coolest in summer?",
+     "Light-coloured travertine and limestone stay much cooler than dark stone or porcelain."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/pool-day-villa.jpg",
+   "photoAlt": "Travertine pool deck and coping around a villa pool",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "3–10 days"
+  },
+  {
+   "id": "pool-safety",
+   "name": "Pool safety covers & fencing",
+   "cat": "Technical",
+   "short": "Glass fences, safety gates, automatic covers and alarms to keep children safe.",
+   "intro": "Pool safety is essential for every family home. We install frameless glass pool fences with self-closing gates, automatic and manual safety covers, and pool alarms, so children and pets cannot reach the water unsupervised.",
+   "includes": [
+    "Frameless glass pool fencing",
+    "Self-closing safety gates",
+    "Automatic pool covers",
+    "Manual safety covers",
+    "Pool and gate alarms",
+    "Anti-slip treatment"
+   ],
+   "process": [
+    [
+     "Book",
+     "Book online or send a WhatsApp message with photos of the problem."
+    ],
+    [
+     "Inspect & quote",
+     "Our technician arrives in the agreed window, finds the cause and gives you a clear quote."
+    ],
+    [
+     "Fix",
+     "Work starts only after you approve, using quality parts carried on the van."
+    ],
+    [
+     "Test & clean",
+     "Everything is tested in front of you and the area is left clean."
+    ],
+    [
+     "Warranty",
+     "You receive a job report and our 90-day workmanship warranty."
+    ]
+   ],
+   "processTitle": "How we work",
+   "finishes": null,
+   "finishesTitle": null,
+   "faq": [
+    [
+     "Does a cover also help in summer?",
+     "Yes. It reduces evaporation, keeps out dust and leaves, and helps keep the water cooler."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": null,
+   "photoAlt": "Pool safety covers & fencing",
+   "photo2": null,
+   "photo2Alt": "",
+   "time": "1–3 days"
+  },
+  {
+   "id": "wall-moulding",
+   "name": "Wall moulding & panelling",
+   "cat": "Renovation",
+   "short": "Classic and modern wall moulding, wainscoting, panel frames, cornices and decorative ornaments for villas and apartments.",
+   "intro": "Wall moulding adds depth, light and shadow to plain walls and gives any room a refined, high-end finish. NAVA INTERIOR designs and installs classic French-style panel frames with carved corner ornaments, modern slim shadow-line panels, wainscoting, dado rails, skirting and cornices. Every frame is set out with a laser so the panels line up across the whole wall, corners are mitred precisely, joints are filled and sanded, and the finished wall is painted in one seamless colour.",
+   "includes": [
+    "Wall measurement and panel layout design",
+    "Laser setting-out for perfectly aligned frames",
+    "PU, MDF or gypsum moulding profiles",
+    "Carved corner and centre ornaments",
+    "Wainscoting and dado rails",
+    "Skirting and ceiling cornice",
+    "Precise mitred corners",
+    "Joint filling, sanding and full repaint"
+   ],
+   "process": [
+    [
+     "Design & layout",
+     "We measure the walls and draw the panel layout, balancing frames around doors, windows and sockets."
+    ],
+    [
+     "Setting-out",
+     "Frame positions are marked with a laser level so every line is straight and evenly spaced."
+    ],
+    [
+     "Cutting & fixing",
+     "Profiles are mitred and fixed with adhesive and a brad nailer, then ornaments are placed."
+    ],
+    [
+     "Filling & sanding",
+     "Nail holes and joints are filled and sanded so the moulding looks like one piece with the wall."
+    ],
+    [
+     "Painting & handover",
+     "Primer and two coats of paint finish the wall, then we clean up and walk through it with you."
+    ]
+   ],
+   "processTitle": "How we install wall moulding",
+   "finishes": [
+    [
+     "Classic French panels",
+     "Rectangular frames with carved corner ornaments for a palace-style look."
+    ],
+    [
+     "Modern slim frames",
+     "Thin, clean profiles for contemporary apartments."
+    ],
+    [
+     "Wainscoting",
+     "Lower-wall panelling with a dado rail, ideal for corridors and dining rooms."
+    ],
+    [
+     "Full-height panelling",
+     "Floor-to-ceiling frames for feature walls behind beds and sofas."
+    ],
+    [
+     "Cornice & skirting",
+     "Matching ceiling cornice and skirting to complete the room."
+    ],
+    [
+     "Two-tone painted panels",
+     "Panels painted in a contrast colour for extra depth."
+    ]
+   ],
+   "finishesTitle": "Moulding styles we install",
+   "faq": [
+    [
+     "Which material do you use?",
+     "Mostly high-density PU (polyurethane) moulding: light, moisture-resistant and easy to paint. MDF and gypsum are available too."
+    ],
+    [
+     "How long does a feature wall take?",
+     "Usually 1–2 days including painting; a full room takes 2–4 days."
+    ],
+    [
+     "Can moulding go on any wall?",
+     "Yes, on block, concrete or gypsum walls. We check the wall is flat first and skim it if needed."
+    ],
+    [
+     "Can I choose the paint colour?",
+     "Yes. Most clients paint the moulding the same colour as the wall; contrast colours also work well."
+    ],
+    [
+     "Is your work guaranteed?",
+     "Yes. Every job comes with a 90-day workmanship warranty. If the same problem comes back, we fix it free."
+    ],
+    [
+     "How do I pay?",
+     "Pay after the job by card, Apple Pay, bank transfer or cash. Larger projects are paid in stages."
+    ],
+    [
+     "Which areas do you cover?",
+     "All of Dubai, Abu Dhabi, Sharjah and Ajman, with same-day slots in most areas."
+    ]
+   ],
+   "photo": "img/moulding-palm-terrace.jpg",
+   "photoAlt": "Two NAVA INTERIOR fitters laser-levelling classic wall moulding panels in a Palm Jumeirah villa",
+   "photo2": "img/moulding-panel-detail.jpg",
+   "photo2Alt": "Fitters mitring and levelling decorative wall panel mouldings with carved corner ornaments",
+   "time": "1–4 days"
+  }
+ ]
+}
