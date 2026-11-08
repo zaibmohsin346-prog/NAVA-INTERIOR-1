@@ -17,6 +17,25 @@ e = lambda s: html.escape(str(s), quote=True)
 wa = lambda t: f"https://wa.me/{PHONE_WA}?text={urllib.parse.quote(t)}"
 TODAY = datetime.date.today().isoformat()
 
+def fit_title(cands, lo=30, hi=65):
+    """First candidate whose length is within [lo, hi]; else the first one shortened at a word boundary."""
+    for c in cands:
+        if lo <= len(c) <= hi: return c
+    c = cands[0]
+    return c if len(c) <= hi else c[:hi - 1].rsplit(" ", 1)[0].rstrip(",:;-–") + "…"
+
+def fit_desc(cands, lo=70, hi=160):
+    return fit_title(cands, lo, hi)
+
+def guide_title(g, suffix=" | NAVA INTERIOR"):
+    t = g.get("seoTitle") or g["title"]
+    cands = [t + suffix, t]
+    for sep in (" and how ", ": ", "? ", " – ", " — "):
+        if sep in t:
+            head = t.split(sep)[0] + ("?" if sep == "? " else "")
+            cands += [head + suffix, head]
+    return fit_title(cands)
+
 BUSINESS = {"@type": "HomeAndConstructionBusiness", "@id": SITE + "/#business", "name": "NAVA INTERIOR",
             "url": SITE + "/", "telephone": "+971567522656", "email": EMAIL,
             "logo": SITE + "/brand/logo/nava-interior-icon.png", "image": SITE + "/img/hero-kitchen-marina.jpg",
@@ -50,7 +69,7 @@ nav{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;letter-spacing:.14em;tex
 h1,h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;line-height:1.1;margin:.3em 0}
 h1{font-size:clamp(34px,6vw,58px)}h2{font-size:clamp(26px,4vw,36px);margin-top:1.6em}h3{font-weight:500;margin:.2em 0}
 .lead{font-size:19px;color:#4A4741;max-width:65ch}
-.ph{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:36px}.ph img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.ph{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:36px}.ph img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .ph.one{grid-template-columns:1fr}.ph.one img{aspect-ratio:16/8}
 main section{max-width:780px}
 ul.chk{padding-left:1.2em}ol.st li{margin-bottom:10px}
@@ -63,18 +82,21 @@ details{border-bottom:1px solid #E6E0D6;padding:12px 0}summary{cursor:pointer;fo
 footer{background:#14161A;color:#CFC8BC;padding-block:36px;font-size:15px;margin-top:40px}footer a{color:#E3C68F}
 @media (max-width:600px){.ph{grid-template-columns:1fr}.cta{padding:24px}}"""
 
-FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&family=Jost:wght@300;500&family=Michroma&display=swap">'
+FONT_CSS = "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&family=Jost:wght@300;500&family=Michroma&display=swap"
+FONTS = (f'<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         f'<link rel="preload" as="style" href="{FONT_CSS}"><link rel="stylesheet" href="{FONT_CSS}" media="print" onload="this.media=\'all\'">'
+         f'<noscript><link rel="stylesheet" href="{FONT_CSS}"></noscript>')
 
 def page(path, title, desc, body, ld, img="/img/hero-kitchen-marina.jpg"):
     url = SITE + path
     doc = f"""<!doctype html>
-<html lang="en"><head><!-- Google Tag Manager -->
+<html lang="en"><head><link rel="preconnect" href="https://www.googletagmanager.com"><!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-NVBHQ6WM');</script>
 <!-- End Google Tag Manager --><!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8FCP3364BW"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-8FCP3364BW',{{page_location:location.href}});</script>
 <!-- End Google Analytics 4 --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
+<title>{e(title)}</title><meta name="description" content="{e(desc)}"><meta name="robots" content="index, follow, max-image-preview:large"><link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="NAVA INTERIOR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{SITE}{img}"><meta property="og:url" content="{url}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/brand/logo/nava-interior-icon-transparent.png">{FONTS}
 <style>{CSS}</style>
@@ -102,6 +124,19 @@ def crumbs(items):
 
 urls = [SITE + "/"]
 by_id = {s["id"]: s for s in SV}
+GUIDES = json.load(open(os.path.join(ROOT, "tools", "guides.json")))
+
+def related_guides(s, n=3):
+    """Guides for this service first, then guides for a closely related service (e.g. painting -> villa-painting), then same category."""
+    def score(g):
+        gs = g.get("service", "")
+        if gs == s["id"]: return 3
+        if gs and (gs in s["id"].split("-") or gs in s["id"] or s["id"] in gs): return 2
+        if gs in by_id and by_id[gs]["cat"] == s["cat"]: return 1
+        return 0
+    ranked = sorted(GUIDES, key=lambda g: -score(g))  # stable: keeps guides.json order within a score
+    if not ranked or score(ranked[0]) < 2: return []
+    return ranked[:max(2, len([g for g in ranked[:n] if score(g)]))]
 
 # ---- service pages
 for s in SV:
@@ -109,11 +144,13 @@ for s in SV:
     photos = [p for p in [(s["photo"], s["photoAlt"]), (s["photo2"], s["photo2Alt"])] if p[0]]
     ph = ""
     if photos:
-        ph = f'<div class="ph{" one" if len(photos)==1 else ""}">' + "".join(f'<img src="/{e(p)}" alt="{e(a)}" loading="lazy" width="800" height="600">' for p,a in photos) + "</div>"
+        ph = f'<div class="ph{" one" if len(photos)==1 else ""}">' + "".join(f'<img src="/{e(p)}" alt="{e(a)}" {"fetchpriority=\"high\"" if k == 0 else "loading=\"lazy\""} width="800" height="600">' for k,(p,a) in enumerate(photos)) + "</div>"
     related = [x for x in SV if x["cat"] == s["cat"] and x["id"] != s["id"]][:6]
     fin = ""
     if s["finishes"]:
         fin = f'<h2>{e(s["finishesTitle"])}</h2>' + "".join(f'<h3>{e(a)}</h3><p>{e(b)}</p>' for a,b in s["finishes"])
+    rgs = related_guides(s)
+    rg = ('<h2>Related guides</h2><div class="cards">' + "".join(f'<a href="/guides/{g["slug"]}/"><strong>{e(g["title"])}</strong><small>{e(g["desc"])}</small></a>' for g in rgs) + "</div>") if rgs else ""
     body = f"""<div class="hd"><div class="w"><div class="crumb"><a href="/">Home</a> / <a href="/services/">Services</a> / {e(s['name'])}</div>
 <div class="eb">{e(s['cat'])} service · Dubai, Abu Dhabi, Sharjah &amp; Ajman</div><h1>{e(s['name'])}</h1><p class="lead">{e(s['short'])}</p>
 <p><a class="btn" href="{wa(f"Hi NAVA INTERIOR, I'd like a free quote for {s['name']}.")}">Get a free quote on WhatsApp</a></p></div></div>
@@ -128,14 +165,16 @@ for s in SV:
 </section>
 <div class="cta"><div><h2>Need {e(s['name'].lower())}?</h2><p>Free inspection and written quote. In-house team. 90-day workmanship warranty.</p></div><a class="btn" href="{wa(f"Hi NAVA INTERIOR, I'd like a free quote for {s['name']}.")}">WhatsApp {PHONE}</a></div>
 <h2>Related services</h2><div class="cards">{"".join(f'<a href="/services/{x["id"]}/"><strong>{e(x["name"])}</strong><small>{e(x["short"])}</small></a>' for x in related)}</div>
-</main>"""
+{rg}</main>"""
     ld = [BUSINESS,
           {"@type": "Service", "name": s["name"], "serviceType": s["name"], "description": s["intro"], "url": SITE + path,
            "provider": {"@id": SITE + "/#business"}, "areaServed": [{"@type": "City", "name": c} for c in EMIRATES],
            **({"image": SITE + "/" + s["photo"]} if s["photo"] else {})},
           {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q,a in s["faq"]]},
           crumbs([("Home", "/"), ("Services", "/services/"), (s["name"], path)])]
-    urls.append(page(path, f"{s['name']} in Dubai & UAE | NAVA INTERIOR", f"{s['short']} Free inspection and written quote in Dubai, Abu Dhabi, Sharjah and Ajman.", body, ld, "/" + s["photo"] if s["photo"] else "/img/hero-kitchen-marina.jpg"))
+    title = fit_title([f"{s['name']} in Dubai & UAE | NAVA INTERIOR", f"{s['name']} in Dubai | NAVA INTERIOR", f"{s['name']} in Dubai & UAE", f"{s['name']} | NAVA INTERIOR"])
+    desc = fit_desc([f"{s['short']} Free inspection and written quote in Dubai, Abu Dhabi, Sharjah and Ajman.", f"{s['short']} Free inspection and written quote across the UAE.", f"{s['short']} Free quote in Dubai and the UAE.", s['short']])
+    urls.append(page(path, title, desc, body, ld, "/" + s["photo"] if s["photo"] else "/img/hero-kitchen-marina.jpg"))
 
 # ---- services directory
 groups = {"Renovation": "Interior fit-out & renovation", "Technical": "Technical & maintenance services"}
@@ -145,9 +184,10 @@ for c, t in groups.items():
     body += f'<h2>{t}</h2><div class="cards">' + "".join(f'<a href="/services/{x["id"]}/"><strong>{e(x["name"])}</strong><small>{e(x["short"])}</small></a>' for x in items) + "</div>"
 body += f'<div class="cta"><div><h2>Not sure what you need?</h2><p>Send photos on WhatsApp and we will advise.</p></div><a class="btn" href="{wa("Hi NAVA INTERIOR, I need advice on my project.")}">WhatsApp {PHONE}</a></div></main>'
 ld = [BUSINESS, {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i+1, "name": x["name"], "url": f"{SITE}/services/{x['id']}/"} for i,x in enumerate(sorted(SV, key=lambda x: x["name"]))]}, crumbs([("Home", "/"), ("Services", "/services/")])]
-urls.insert(1, page("/services/", "Services A–Z | Interior fit-out & renovation in Dubai | NAVA INTERIOR", f"{len(SV)} interior, renovation and maintenance services in Dubai, Abu Dhabi, Sharjah and Ajman: painting, false ceilings, wall moulding, joinery, tiling, waterproofing, pools, AC and more.", body, ld))
+urls.insert(1, page("/services/", "Services A–Z: fit-out & renovation in Dubai | NAVA INTERIOR", f"{len(SV)} interior, renovation and maintenance services in Dubai, Abu Dhabi, Sharjah and Ajman: painting, ceilings, moulding, joinery, tiling, pools and AC.", body, ld))
 
 # ---- area pages
+COMMUNITIES_PRE = {"dubai-hills-estate":("Dubai Hills Estate","dubai"),"arabian-ranches":("Arabian Ranches","dubai"),"jumeirah-village-circle":("Jumeirah Village Circle (JVC)","dubai"),"dubai-marina":("Dubai Marina","dubai"),"palm-jumeirah":("Palm Jumeirah","dubai"),"downtown-business-bay":("Downtown Dubai & Business Bay","dubai"),"al-reem-island":("Al Reem Island","abu-dhabi"),"khalifa-city":("Khalifa City","abu-dhabi")}
 KEY = ["painting", "villa-painting", "apartment-painting", "gypsum", "wall-moulding", "joinery-and-custom-cabinets", "tile-work", "bathroom-renovation", "kitchen-renovation", "waterproofing", "pool-construction", "pergolas-and-outdoor-structures", "ac-repair", "electrical", "plumbing", "marble-polishing"]
 for key, (city, hoods, text) in AREA_INFO.items():
     path = f"/areas/{key}/"
@@ -158,19 +198,66 @@ for key, (city, hoods, text) in AREA_INFO.items():
 <main class="w"><section><h2>Neighbourhoods we cover in {city}</h2><p>{", ".join(e(h) for h in hoods)}, and other communities across {city}.</p>
 <h2>How it works</h2><ol class="st"><li><strong>Consultation:</strong> send photos on WhatsApp or book a free site visit.</li><li><strong>Quote &amp; plan:</strong> you receive a written scope, timeline and quote.</li><li><strong>Execution:</strong> a supervisor manages the work and keeps you updated.</li><li><strong>Handover:</strong> final walk-through, clean-up and warranty documents.</li></ol></section>
 <h2>Popular services in {city}</h2><div class="cards">{"".join(f'<a href="/services/{x["id"]}/"><strong>{e(x["name"])}</strong><small>{e(x["short"])}</small></a>' for x in svs)}</div>
+{('<h2>Communities in ' + city + '</h2><div class="cards">' + "".join(f'<a href="/areas/{ck}/"><strong>{e(cv[0])}</strong></a>' for ck,cv in COMMUNITIES_PRE.items() if cv[0] and cv[1]==key) + '</div>') if any(cv[1]==key for cv in COMMUNITIES_PRE.values()) else ''}
 <p style="margin-top:20px"><a href="/services/">See all {len(SV)} services</a></p>
 <div class="cta"><div><h2>Planning a project in {city}?</h2><p>Free inspection and written quote. 90-day workmanship warranty.</p></div><a class="btn" href="{wa(f"Hi NAVA INTERIOR, I'd like a free quote in {city}.")}">WhatsApp {PHONE}</a></div></main>"""
     ld = [{**BUSINESS, "areaServed": [{"@type": "City", "name": city}] + [{"@type": "Place", "name": h} for h in hoods]}, crumbs([("Home", "/"), (city, path)])]
-    urls.append(page(path, f"Interior Fit-out & Renovation in {city} | NAVA INTERIOR", f"Interior fit-out, renovation and maintenance in {city}: painting, false ceilings, wall moulding, joinery, tiling, waterproofing, pools and AC. Free inspection and written quote.", body, ld))
+    urls.append(page(path, f"Interior Fit-out & Renovation in {city} | NAVA INTERIOR", fit_desc([f"Interior fit-out, renovation and maintenance in {city}: painting, false ceilings, wall moulding, joinery, tiling, waterproofing, pools and AC. Free inspection and written quote.", f"Interior fit-out, renovation and maintenance in {city}: painting, ceilings, wall moulding, joinery, tiling, waterproofing, pools and AC. Free written quote."]), body, ld))
+
+# ---- community pages (local SEO)
+COMMUNITIES = {
+ "dubai-hills-estate": ("Dubai Hills Estate", "dubai", ["villa-painting","wall-moulding","gypsum","bathroom-renovation","kitchen-renovation","pool-construction","pergolas-and-outdoor-structures","joinery-and-custom-cabinets"],
+   "Villa and apartment upgrades in Dubai Hills Estate: repaints, false ceilings, wall moulding, bathroom and kitchen renovation, pools and pergolas. We follow community and building rules and help with the approval paperwork before work starts."),
+ "arabian-ranches": ("Arabian Ranches", "dubai", ["villa-painting","exterior-painting","roof-waterproofing","bathroom-renovation","kitchen-renovation","pool-renovation","pergolas-and-outdoor-structures","ac-repair"],
+   "Arabian Ranches villas often need roof waterproofing, exterior repainting, bathroom and kitchen updates, pool renovation and new pergolas as they age. We inspect, give a written quote and manage the work from start to handover."),
+ "jumeirah-village-circle": ("Jumeirah Village Circle (JVC)", "dubai", ["apartment-painting","move-in-move-out-repairs","small-home-repairs","gypsum","tile-work","ac-repair","plumbing","electrical"],
+   "Apartment and townhouse work in JVC: move-in and move-out repaints, small repairs, false ceilings, tiling, AC servicing, plumbing and electrical. We work around building rules and book service lifts where needed."),
+ "dubai-marina": ("Dubai Marina", "dubai", ["apartment-painting","wall-moulding","gypsum","bathroom-renovation","kitchen-renovation","marble-polishing","ac-repair","duct-cleaning"],
+   "High-rise apartment work in Dubai Marina: repaints, wall moulding, false ceilings, bathroom and kitchen renovation, marble polishing and AC and duct cleaning. We coordinate with building management for permits, lift bookings and working hours."),
+ "palm-jumeirah": ("Palm Jumeirah", "dubai", ["villa-painting","wall-moulding","marble-polishing","bathroom-renovation","joinery-and-custom-cabinets","pool-renovation","pergolas-and-outdoor-structures","exterior-painting"],
+   "Villa and apartment finishing on Palm Jumeirah: painting, wall moulding, marble polishing, bathroom renovation, custom joinery, pools, pergolas and exterior repaints, planned around community approval requirements."),
+ "downtown-business-bay": ("Downtown Dubai & Business Bay", "dubai", ["apartment-painting","office-painting","fit-out-office-and-retail","gypsum","wall-moulding","ac-repair","tile-work","electrical"],
+   "Apartment and office work in Downtown Dubai and Business Bay: repaints, office painting outside business hours, fit-out, false ceilings, wall moulding, tiling, AC and electrical."),
+ "al-reem-island": ("Al Reem Island", "abu-dhabi", ["apartment-painting","gypsum","bathroom-renovation","kitchen-renovation","tile-work","ac-repair","wall-moulding","plumbing"],
+   "Apartment work on Al Reem Island, Abu Dhabi: repaints, false ceilings, bathroom and kitchen renovation, tiling, wall moulding, AC servicing and plumbing, with the same in-house team and written quotes."),
+ "khalifa-city": ("Khalifa City", "abu-dhabi", ["villa-painting","exterior-painting","roof-waterproofing","pergolas-and-outdoor-structures","pool-construction","bathroom-renovation","gypsum","ac-repair"],
+   "Villa work in Khalifa City, Abu Dhabi: interior and exterior painting, roof waterproofing, pergolas, pools, bathroom renovation, false ceilings and AC."),
+}
+for key, (name, parent, sids, text) in COMMUNITIES.items():
+    path = f"/areas/{key}/"
+    pname = AREA_INFO[parent][0]
+    svs = [by_id[i] for i in sids if i in by_id]
+    rel_g = [g for g in GUIDES if g["service"] in sids][:4]
+    body = f"""<div class="hd"><div class="w"><div class="crumb"><a href="/">Home</a> / <a href="/areas/{parent}/">{e(pname)}</a> / {e(name)}</div><div class="eb">Community · {e(pname)}</div>
+<h1>Interior fit-out &amp; renovation in {e(name)}</h1><p class="lead">{e(text)}</p>
+<p><a class="btn" href="{wa(f"Hi NAVA INTERIOR, I'd like a free quote in {name}.")}">Free quote in {e(name)}</a></p></div></div>
+<main class="w"><section><h2>Popular services in {e(name)}</h2></section><div class="cards">{"".join(f'<a href="/services/{x["id"]}/"><strong>{e(x["name"])}</strong><small>{e(x["short"])}</small></a>' for x in svs)}</div>
+<section><h2>How it works</h2><ol class="st"><li><strong>Consultation:</strong> send photos on WhatsApp or book a free site visit.</li><li><strong>Approvals:</strong> we advise on building or community permits and help prepare the paperwork.</li><li><strong>Quote &amp; plan:</strong> you receive a written scope, timeline and quote.</li><li><strong>Execution &amp; handover:</strong> a supervisor manages the work, then a final walk-through, clean-up and warranty.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>Do you work in {e(name)}?</summary><p>Yes. NAVA INTERIOR serves {e(name)} and the rest of {e(pname)} for interior fit-out, renovation and maintenance.</p></details>
+<details><summary>Do I need approval before renovating in {e(name)}?</summary><p>Most buildings and communities require a no-objection certificate or work permit before anything beyond small repairs. Requirements vary, so we check them with you and help prepare the application.</p></details>
+<details><summary>How do I get a quote?</summary><p>Send photos on WhatsApp to {PHONE} or book a free inspection. You receive a clear written quote before any work starts.</p></details>
+</section>
+{('<h2>Helpful guides</h2><div class="cards">' + "".join(f'<a href="/guides/{g["slug"]}/"><strong>{e(g["title"])}</strong></a>' for g in rel_g) + '</div>') if rel_g else ''}
+<p style="margin-top:20px"><a href="/areas/{parent}/">More about our work in {e(pname)}</a> · <a href="/services/">All {len(SV)} services</a></p>
+<div class="cta"><div><h2>Planning a project in {e(name)}?</h2><p>Free inspection and written quote. 90-day workmanship warranty.</p></div><a class="btn" href="{wa(f"Hi NAVA INTERIOR, I'd like a free quote in {name}.")}">WhatsApp {PHONE}</a></div></main>"""
+    faq = [(f"Do you work in {name}?", f"Yes. NAVA INTERIOR serves {name} and the rest of {pname} for interior fit-out, renovation and maintenance."),
+           (f"Do I need approval before renovating in {name}?", "Most buildings and communities require a no-objection certificate or work permit before anything beyond small repairs. Requirements vary, so we check them with you and help prepare the application."),
+           ("How do I get a quote?", f"Send photos on WhatsApp to {PHONE} or book a free inspection. You receive a clear written quote before any work starts.")]
+    ld = [{**BUSINESS, "areaServed": [{"@type": "Place", "name": name}, {"@type": "City", "name": pname}]},
+          {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q,a in faq]},
+          crumbs([("Home", "/"), (pname, f"/areas/{parent}/"), (name, path)])]
+    title = f"Renovation & Fit-out in {name} | NAVA INTERIOR"
+    if len(title) > 65: title = f"Renovation & Fit-out in {name}"
+    urls.append(page(path, title, fit_desc([f"Interior fit-out, renovation and maintenance in {name}, {pname}: painting, ceilings, moulding, bathrooms, kitchens and more. Free written quote.", f"Fit-out, renovation and maintenance in {name}, {pname}. Free inspection and written quote."]), body, ld))
 
 # ---- guides (AEO: question headings with short direct answers)
-GUIDES = json.load(open(os.path.join(ROOT, "tools", "guides.json")))
 for g in GUIDES:
     path = f"/guides/{g['slug']}/"
     sv = by_id.get(g["service"])
     body = f"""<div class="hd"><div class="w"><div class="crumb"><a href="/">Home</a> / <a href="/guides/">Guides</a></div><div class="eb">NAVA INTERIOR guide</div>
 <h1>{e(g['title'])}</h1><p class="lead">{e(g['intro'])}</p></div></div>
-<main class="w"><div class="ph one"><img src="/{e(g['img'])}" alt="{e(g['title'])}" width="1200" height="600"></div><section>
+<main class="w"><div class="ph one"><img src="/{e(g['img'])}" alt="{e(g['title'])}" fetchpriority="high" width="1200" height="600"></div><section>
 {"".join(f'<h2>{e(q)}</h2><p>{e(a)}</p>' for q,a in g['qa'])}
 <h2>Need help?</h2><p>NAVA INTERIOR provides {e(sv['name'].lower()) if sv else 'this service'} across Dubai, Abu Dhabi, Sharjah and Ajman, with a free inspection and a clear written quote. {f'<a href="/services/{sv["id"]}/">See our {e(sv["name"].lower())} service</a>.' if sv else ''}</p>
 </section>
@@ -180,7 +267,7 @@ for g in GUIDES:
           {"@type": "Article", "headline": g["title"], "description": g["desc"], "image": SITE + "/" + g["img"], "author": {"@id": SITE + "/#business"}, "publisher": {"@id": SITE + "/#business"}, "datePublished": "2026-11-07", "dateModified": TODAY, "mainEntityOfPage": SITE + path},
           {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q,a in g["qa"]]},
           crumbs([("Home", "/"), ("Guides", "/guides/"), (g["title"], path)])]
-    urls.append(page(path, f"{g['title']} | NAVA INTERIOR", g["desc"], body, ld, "/" + g["img"]))
+    urls.append(page(path, guide_title(g), fit_desc([g["desc"], g["intro"]]), body, ld, "/" + g["img"]))
 
 body = '<div class="hd"><div class="w"><div class="crumb"><a href="/">Home</a> / Guides</div><div class="eb">Guides</div><h1>Home maintenance &amp; renovation guides</h1><p class="lead">Straight answers to the questions UAE homeowners ask us most.</p></div></div><main class="w"><div class="cards">' + "".join(f'<a href="/guides/{x["slug"]}/"><strong>{e(x["title"])}</strong><small>{e(x["desc"])}</small></a>' for x in GUIDES) + "</div></main>"
 urls.append(page("/guides/", "Home maintenance & renovation guides | NAVA INTERIOR", "Practical answers for UAE homeowners on leaks, AC, false ceilings, painting and wall moulding.", body, [BUSINESS, crumbs([("Home", "/"), ("Guides", "/guides/")])]))
